@@ -1,10 +1,12 @@
 function renderPanel(content) {
-  var template = $.templates("#panel");
-  var htmlOutput = template.render(content);
-  $('#container').html(htmlOutput);
-  var score = JSON.parse(localStorage.getItem("score"));
-  $('.score').each(function(){
-    $(this).printScorePanel(score);
+  $('#container').load('assets/templates/panel.html',function(){
+    var template = $.templates("#panel");
+    var htmlOutput = template.render(content);
+    $('#container').html(htmlOutput);
+    var score = JSON.parse(localStorage.getItem("score"));
+    $('.score').each(function(){
+      $(this).printScorePanel(score);
+    });
   });
 }
 
@@ -59,4 +61,36 @@ $.fn.printScorePanel = function(element) {
   }
   var score = "<span class='score-foreground score-"+ (count/i*100).toFixed(0) + "'></span>";
   this.html(score);
+}
+
+$.fn.scoreResume = function(element) {
+  var count=0;
+  for(var key in element) {
+    count += quizData[key].points;
+  }
+  return count;
+}
+
+function generateScoreRegistry(element){
+  score = {};
+  element.items.forEach(function(category){
+    score["category"+category.id] = getQuizes(category);
+    localStorage.setItem("score",JSON.stringify(score));
+  });
+}
+
+function getQuizes(category) {
+  quizes = {};
+  category.quiz.forEach(function(quiz){
+    quizes["quiz"+quiz.id] = getQuestion(category.quiz);
+  });
+  return quizes;
+}
+
+function getQuestion(quiz) {
+  questions = {};
+  quiz.forEach(function(question){
+    questions["question"+question.id] = {"points" : 0};
+  });
+  return questions;
 }

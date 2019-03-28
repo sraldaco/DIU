@@ -1,12 +1,20 @@
 
 <script id="quiz" type="text/x-jsrender">
   <div id="quiz-data" data-category="{{:category}}" data-quiz="{{:id}}">
-    <h1>{{:title}}</h1>
     <div id="items"></div>
-    <div class="can hide">
+    <div class="can animated hide">
       <div id="message">Mensaje</div>
       <img src="assets/img/perro.png" alt="mensaje">
       <button class="next-button" type="button" name="next">Siguiente pregunta</button>
+    </div>
+    <div class="resume animated hide">
+      <h1>{{:title}}</h1>
+      <div class="stars">Replace whit Stars image</div>
+      <div class="result"></div>
+      <div class="buttons">
+        <button id="reload" class="buton-resume">Reload</button>
+        <button id="menu" class="buton-resume">Menu</button>
+      </div>
     </div>
   </div>
 </script>

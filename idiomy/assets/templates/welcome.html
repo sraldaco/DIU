@@ -1,20 +1,9 @@
-<h1>Bienvenido a iDiomy!</h1>
+<div class="welcome animated fadeIn">
+  <img src="assets/img/logo.png" alt="iDiomy!">
+  <h1>Bienvenido a iDiomy!</h1>
 
-<form method="post">
-  <input type="checkbox" id="remember"> No volver a mostrar <br />
-  <button type="submit" id="skip-intro">
-    Comenzar el juego!
-  </button>
-</form>
-<script>
-  $('#skip-intro').click(function(e){
-    e.preventDefault();
-    var chk = document.getElementById("remember").checked;
-    if (chk) {
-      localStorage.setItem("skip", "true");
-    } else {
-      localStorage.setItem("skip", "false");
-    }
-    $('#container').load('assets/templates/panel.html');
-  });
-</script>
+    <input type="checkbox" id="remember"> No volver a mostrar <br />
+    <button type="button" class="skip-intro">
+      Comenzar el juego!
+    </button>
+</div>
