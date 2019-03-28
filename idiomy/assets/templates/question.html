@@ -1,0 +1,18 @@
+<script id="question" type="text/x-jsrender">
+  <div class="question animated {{if id != 1}}hide{{/if}}" data-question="{{:id}}">
+    <div class="picture">
+      <img src="{{:imgurl}}" alt="{{:question}}">
+    </div>
+    <h3 class="title">{{:question}}</h3>
+    <div id="answers">
+      {{for answers itemVar='~item'}}
+        <div class="answer">
+          <button class="answer-button" type="button" name="answer-{{:~item.id}}" data-answer="{{:~item.id}}">
+            {{:~item.answer}}
+          </button>
+        </div>
+      {{/for}}
+    </div>
+  </div>
+
+</script>

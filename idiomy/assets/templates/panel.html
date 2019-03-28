@@ -1,0 +1,16 @@
+<script id="panel" type="text/x-jsrender">
+  <h2>{{:title}}</h2>
+  {{for items itemVar='~item'}}
+    <div class="category">
+      <h3>{{:~item.title}}</h3>
+      {{for ~item.quiz itemVar='~quiz'}}
+        <div class="quiz-panel">
+          <button class="testinit" data-category="{{:~item.id}}" data-quiz="{{:~quiz.id}}">
+            {{:~quiz.title}}
+          </button>
+          <div class="score" data-category="{{:~item.id}}" data-quiz="{{:~quiz.id}}"></div>
+        </div>
+      {{/for}}
+    </div>
+  {{/for}}
+</script>
