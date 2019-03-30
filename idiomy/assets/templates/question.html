@@ -1,7 +1,7 @@
 <script id="question" type="text/x-jsrender">
-  <div class="question animated  {{if id != 1}}hide {{else}} fadeIn {{/if}}" data-question="{{:id}}">
+  <div class="question animated  {{if id != 1}}hide {{else}} fadeInUp {{/if}} item-wrapper" data-question="{{:id}}">
     <div class="picture">
-      <img src="{{:imgurl}}" alt="{{:question}}">
+      <img src="{{:imgurl}}" alt="{{:question}}" class="fluid-img">
     </div>
     <h3 class="title">{{:question}}</h3>
     <div id="answers">

@@ -1,8 +1,8 @@
 <script id="panel" type="text/x-jsrender">
-  <div class="panel-wrapper">
-    <h2>{{:title}}</h2>
+  <div class="panel item-wrapper animated fadeIn">
+    <h2 class="title">{{:title}}</h2>
     {{for items itemVar='~item'}}
-      <div class="category">
+      <div class="category animated {{if (#index+1) % 2 == 0}} bounceInLeft {{else}} bounceInRight {{/if}}">
         <h3>{{:~item.title}}</h3>
         {{for ~item.quiz itemVar='~quiz'}}
           <div class="quiz-panel">

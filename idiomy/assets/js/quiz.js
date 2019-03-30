@@ -6,8 +6,8 @@ $('#container').on('click', '.answer-button', function(){
     msg = "OK";
   }
   $('#message').html(msg);
-  $('.fadeIn').addClass('hide').removeClass('fadeIn');
-  $('.can').removeClass('hide').addClass('fadeIn');
+  $('.fadeInUp').addClass('hide').removeClass('fadeInUp');
+  $('.can').removeClass('hide').addClass('fadeInUp');
 });
 
 $('#container').on('click','.next-button', function(){
@@ -15,7 +15,7 @@ $('#container').on('click','.next-button', function(){
 });
 
 function showNext(n) {
-  $('.fadeIn').addClass('hide').removeClass('fadeIn');
+  $('.fadeInUp').addClass('hide').removeClass('fadeInUp');
   current++;
   var items = $('.question');
   var size = items.length;
@@ -29,11 +29,11 @@ function showNext(n) {
     for(var answer in answers){
       points += answers[answer].points;
     }
-    $('.resume').removeClass('hide').addClass('fadeIn');
+    $('.resume').removeClass('hide').addClass('fadeInUp');
     var result = points + " of " + items.length;
     $('.result').html(result);
   } else {
-    $(items[current]).addClass('fadeIn').removeClass('hide');
+    $(items[current]).addClass('fadeInUp').removeClass('hide');
   }
 }
 
