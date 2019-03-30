@@ -38,6 +38,7 @@ body {
 
 .item-wrapper {
   padding: 30px;
+  overflow: hidden;
 }
 
 .item-wrapper .title {
