@@ -1,7 +1,16 @@
-function renderPanel(content) {
+function appLoad() {
+  if(!localStorage.getItem('skip') === true) {
+    $('#container').load('assets/templates/welcome.html');
+  } else {
+    $('#container').load('assets/templates/panel.html',function(){
+      renderPanel(categories);
+    });
+  }
+}
+function renderPanel() {
   $('#container').load('assets/templates/panel.html',function(){
     var template = $.templates("#panel");
-    var htmlOutput = template.render(content);
+    var htmlOutput = template.render(categories);
     $('#container').html(htmlOutput);
     var score = JSON.parse(localStorage.getItem("score"));
     $('.score').each(function(){
@@ -10,12 +19,12 @@ function renderPanel(content) {
   });
 }
 
-$.fn.renderQuiz = function (content){
+$.fn.renderQuiz = function (){
   var categoryID = this.attr('data-category');
   var quizID = this.attr('data-quiz');
   $('#container').load('assets/templates/quiz.html',
     function() {
-      var quiz = content[categoryID-1].quiz[quizID-1];
+      var quiz = categories.items[categoryID-1].quiz[quizID-1];
       quiz['category'] = categoryID;
       var template = $.templates("#quiz");
       var htmlOutput = template.render(quiz);
@@ -33,17 +42,16 @@ $.fn.renderQuiz = function (content){
   );
 }
 
-$.fn.checkAnswer = function (content){
+$.fn.checkAnswer = function (){
   var quizData = this.parents('#quiz-data');
   var category = quizData.attr('data-category');
   var quiz = quizData.attr('data-quiz');
   var question = this.parents('.question').attr('data-question');
   var answer = this.attr('data-answer');
-  var correct = content[category - 1].quiz[quiz - 1].questions[question - 1].correct;
+  var correct = categories.items[category - 1].quiz[quiz - 1].questions[question - 1].correct;
   var compare = answer == correct ? true : false;
-  var point = 0;
+  var point = compare ? 1 : 0;
   var score = JSON.parse(localStorage.getItem("score"));
-  if (compare) point = 1;
   score["category"+category]["quiz"+ quiz]["question"+ question]["points"] = point;
   localStorage.setItem("score",JSON.stringify(score));
   return compare;
@@ -71,12 +79,13 @@ $.fn.scoreResume = function(element) {
   return count;
 }
 
-function generateScoreRegistry(element){
+function generateScoreRegistry(){
   score = {};
-  element.items.forEach(function(category){
+  categories.items.forEach(function(category){
     score["category"+category.id] = getQuizes(category);
-    localStorage.setItem("score",JSON.stringify(score));
   });
+  localStorage.setItem("score",JSON.stringify(score));
+  console.log(score);
 }
 
 function getQuizes(category) {

@@ -1,44 +1,44 @@
 {
   "AppName": "iDiomy",
   "Categories": {
-    "title": "Categorías",
+    "title": "Categories",
     "items": [
       {
         "id" : 1,
-        "title": "Categoria 1",
+        "title": "Colors",
         "quiz" : [
           {"id" : 1, "title" : "Test 1",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }
@@ -46,36 +46,36 @@
           },
           {"id" : 2, "title" : "Test 2",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }
@@ -83,36 +83,36 @@
           },
           {"id" : 3, "title" : "Test 3",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }
@@ -122,40 +122,40 @@
       },
       {
         "id" : 2,
-        "title": "Categoria 2",
+        "title": "Animals",
         "quiz" : [
           {"id" : 1, "title" : "Test 1",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }
@@ -163,36 +163,36 @@
           },
           {"id" : 2, "title" : "Test 2",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }
@@ -200,36 +200,36 @@
           },
           {"id" : 3, "title" : "Test 3",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }
@@ -239,40 +239,40 @@
       },
       {
         "id" : 3,
-        "title": "Categoria 3",
+        "title": "Food",
         "quiz" : [
           {"id" : 1, "title" : "Test 1",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }
@@ -280,36 +280,36 @@
           },
           {"id" : 2, "title" : "Test 2",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }
@@ -317,36 +317,36 @@
           },
           {"id" : 3, "title" : "Test 3",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }
@@ -356,40 +356,40 @@
       },
       {
         "id" : 4,
-        "title": "Categoria 4",
+        "title": "Family",
         "quiz" : [
           {"id" : 1, "title" : "Test 1",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }
@@ -397,36 +397,36 @@
           },
           {"id" : 2, "title" : "Test 2",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }
@@ -434,36 +434,36 @@
           },
           {"id" : 3, "title" : "Test 3",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }
@@ -473,40 +473,40 @@
       },
       {
         "id" : 5,
-        "title": "Categoria 5",
+        "title": "Numbers",
         "quiz" : [
           {"id" : 1, "title" : "Test 1",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }
@@ -514,36 +514,36 @@
           },
           {"id" : 2, "title" : "Test 2",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }
@@ -552,35 +552,35 @@
           {"id" : 3, "title" : "Test 3",
             "imgurl" : "assets/img/logo.png",
             "questions" : [
-              {"id" : 1, "question" : "Pregunta 1",
+              {"id" : 1, "question" : "Question 1",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Pregunta 2",
+              {"id" : 2, "question" : "Question 2",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Pregunta 3",
+              {"id" : 3, "question" : "Question 3",
                 "imgurl" : "assets/img/logo.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Respuesta 1 (correcta)"},
-                  {"id" : 2, "answer" : "Respuesta 2"},
-                  {"id" : 3, "answer" : "Respuesta 3"},
-                  {"id" : 4, "answer" : "Respuesta 4"},
-                  {"id" : 5, "answer" : "Respuesta 5"}
+                  {"id" : 1, "answer" : "Answer 1 (correct)"},
+                  {"id" : 2, "answer" : "Answer 2"},
+                  {"id" : 3, "answer" : "Answer 3"},
+                  {"id" : 4, "answer" : "Answer 4"},
+                  {"id" : 5, "answer" : "Answer 5"}
                 ],
                 "correct" : 1
               }

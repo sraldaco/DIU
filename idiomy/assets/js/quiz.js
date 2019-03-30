@@ -1,6 +1,6 @@
 var current = 0;
 $('#container').on('click', '.answer-button', function(){
-  var isCorrect = $(this).checkAnswer(content.Categories.items);
+  var isCorrect = $(this).checkAnswer();
   var msg = "fail";
   if (isCorrect) {
     msg = "OK";
@@ -32,7 +32,6 @@ function showNext(n) {
     $('.resume').removeClass('hide').addClass('fadeIn');
     var result = points + " of " + items.length;
     $('.result').html(result);
-    console.log($('.result'));
   } else {
     $(items[current]).addClass('fadeIn').removeClass('hide');
   }
@@ -44,5 +43,8 @@ $('#container').on('click','#reload', function(){
 });
 
 $('#container').on('click','#menu', function(){
-  location.reload();
+  current = 0;
+  $('#container').load('assets/templates/panel.html',function(){
+    renderPanel(categories);
+  });
 });
