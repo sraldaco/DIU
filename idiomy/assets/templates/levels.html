@@ -1,0 +1,24 @@
+<script id="levels" type="text/x-jsrender">
+
+    <div class="levels item-wrapper animated fadeIn">
+        <h2 class="title">Niveles</h2>
+
+      <button id="menu" class="btn-back" title="Volver a Home">
+      </button>
+        {{for items itemVar='~item'}}
+        <div class="category animated {{if (#index+1) % 2 == 0}} bounceInLeft {{else}} bounceInRight {{/if}}">
+          <h3 class="icon">{{:~item.title}}</h3>
+    
+          {{for ~item.quiz itemVar='~quiz'}}
+            <div class="quiz-panel">
+              <button class="introduccion testinit" data-category="{{:~item.id}}" data-quiz="{{:~quiz.id}}">
+                {{:~quiz.title}}
+              </button>
+              <div class="score" data-category="{{:~item.id}}" data-quiz="{{:~quiz.id}}"></div>
+            </div>
+          {{/for}}
+          </div>
+        <br>
+      {{/for}}
+    </div>
+  </script>

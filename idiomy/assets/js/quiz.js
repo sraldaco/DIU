@@ -48,3 +48,14 @@ $('#container').on('click','#menu', function(){
     renderPanel(categories);
   });
 });
+
+$('#container').on('click','#levels', function(){
+  current = 0;
+  $('#container').load('assets/templates/levels.html',function(){
+    renderLevels(categories);
+  });
+});
+
+function showLevels(){
+  $(this).parent().children('.hide').removeClass("hide");
+}

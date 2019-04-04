@@ -19,6 +19,26 @@ function renderPanel() {
   });
 }
 
+function renderIntro() {
+  $('#container').load('assets/templates/introduccion.html',function(){
+    var template = $.templates("#introducciones");
+    var htmlOutput = template.render(categories);
+    $('#container').html(htmlOutput);
+
+  });
+}
+
+function renderLevels() {
+
+  $('#container').load('assets/templates/levels.html',function(){
+    var template = $.templates("#levels");
+    var htmlOutput = template.render(categories);
+    $('#container').html(htmlOutput);
+
+  });
+}
+
+
 $.fn.renderQuiz = function (){
   var categoryID = this.attr('data-category');
   var quizID = this.attr('data-quiz');

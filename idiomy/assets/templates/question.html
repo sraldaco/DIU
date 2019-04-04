@@ -3,7 +3,7 @@
     <div class="picture">
       <img src="{{:imgurl}}" alt="{{:question}}" class="fluid-img">
     </div>
-    <h3 class="title">{{:question}}</h3>
+    <h3 class="pregunta">{{:question}}</h3>
     <div id="answers">
       {{for answers itemVar='~item'}}
         <div class="answer">
@@ -12,6 +12,7 @@
           </button>
         </div>
       {{/for}}
+      <button id="levels" class="buton-resume btn-back" title="Volver a Niveles"></button>
     </div>
   </div>
 

@@ -11,16 +11,19 @@ body {
   color: #212529;
   text-align: left;
   @media (min-width: 768px) {
-    background-color:  #efefef;
+    background-image: url("/idiomy/assets/img/bienvenida.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 }
 
+
+
 #container {
   width: 100%;
-  max-width: 576px;
+  max-width: 700px;
   margin: 0 auto;
   padding:0;
-  background-color: #fff;
 }
 
 .fluid-img {
@@ -39,12 +42,143 @@ body {
   }
 }
 .welcome {
-  background-color: #ccffcc;
+  margin-top: 20%;
+  padding: 10%;
+  font-size: 25px;
+  background-color:  #cdedf6;
+  text-align: center;
+  background-color: transparent;
+  width: 100%;
+}
+
+#bandera{
+  width: 30px;
+}
+
+
+.skip-intro{
+  width: 50%;
+  font-size: 20px;
+  padding: 15px 50px;
+  margin: 10px;
+  border: 2px;
+  border-radius: 5px;
+  background-color: #ef7b45;
+  color: #000;
+  transition-duration: 0.5s;
+}
+
+.skip-intro:hover{
+  background-color: #d84727;
+  transition-duration: 0.5s;
+  color: #FFF;
+  cursor: pointer;
 }
 
 .panel {
   background-color: #ccccff;
 }
+
+.icon{
+  font-size: 1.5em;
+}
+
+.title{
+  background-color: #054a91;
+  color: #FFF;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.category{
+  background-color: #ccccff;
+  margin: 20px;
+  text-align: center;
+  button:hover{
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    cursor: pointer;
+  }
+  .level{
+    background-color: #ccccff;
+    border: 2px solid black;
+    border-radius: 60px;
+    padding: 10px;
+    img{
+      height: 100px;
+    }
+  }
+} 
+
+.levels{
+  background-color: #ccccff;
+}
+.btn-back{
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  background-image: url("/idiomy/assets/img/left-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: transparent;
+  border: 0px;
+}
+
+.btn-inicio{
+  padding: 10px;
+  width: 45px;
+  height: 45px;
+  background-image: url("/idiomy/assets/img/menu.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: transparent;
+  border: 0px;
+}
+
+.testinit{
+  background-color: #38023b;
+  color: #FFF;
+  font-size: 1em;
+  padding: 5px 10px;
+  border: 0px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.introducciones{
+  background-color: #c1ce97;
+
+}
+
+.question{
+  background-color: #efefef;
+  height: auto;
+  text-align: center;
+  .picture{
+    width: 50%;
+    margin: auto;
+  }
+  .pregunta{
+    background-color: #8daccd;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  .answer-button{
+    background-color: #f0b67f;
+    width: 50%;
+    padding: 10px 15px;
+    border: 0px;
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+}
+
+
 .score{
   width: 100px;
   height: 15px;

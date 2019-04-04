@@ -1,0 +1,30 @@
+<script id="introducciones" type="text/x-jsrender">
+
+    <div class="introducciones item-wrapper animated fadeIn">
+        <h2 class="title">Introducción</h2>
+        <button id="levels" class="btn-back" title="Volver a Niveles">
+        </button>
+        <button id="menu" class="btn-inicio" title="Volver a Home">
+          </button>
+
+        {{for items itemVar='~item'}}
+        <div class="category animated {{if (#index+1) % 2 == 0}} bounceInLeft {{else}} bounceInRight {{/if}}">
+          <h3 class="icon">{{:~item.title}}</h3>
+    
+          {{for ~item.quiz itemVar='~quiz'}}
+            <div class="quiz-panel">
+              <button class="testinit" data-category="{{:~item.id}}" data-quiz="{{:~quiz.id}}">
+                {{:~quiz.title}}
+              </button>
+              <div class="score" data-category="{{:~item.id}}" data-quiz="{{:~quiz.id}}"></div>
+            </div>
+          {{/for}}
+          </div>
+        <br>
+      {{/for}}
+    </div>
+          <button id="iniciar-test" class="testinit">
+            Comenzar 
+          </button>
+    </div>
+  </script>

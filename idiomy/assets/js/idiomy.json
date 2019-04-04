@@ -1,13 +1,61 @@
 {
   "AppName": "iDiomy",
   "Categories": {
-    "title": "Categories",
+    "title": "Secciones",
     "items": [
       {
         "id" : 1,
-        "title": "Colors",
+        "title": "Colores / Farben",
+        "img" : "assets/img/categorias/colores.png",
         "quiz" : [
-          {"id" : 1, "title" : "Test 1",
+          {"id" : 1, "title" : "Nivel 1",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/colores.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/colores.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/colores.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
+            "questions" : [
+              {"id" : 1, "question" : "¿De qué color es la naranja?",
+                "imgurl" : "assets/img/categorias/colores/orange.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "weiß"},
+                  {"id" : 2, "answer" : "orange"},
+                  {"id" : 3, "answer" : "grau"},
+                  {"id" : 4, "answer" : "rot"},
+                  {"id" : 5, "answer" : "blau"}
+                ],
+                "correct" : 2
+              },
+              {"id" : 2, "question" : "¿De qué color son las hojas del árbol?",
+                "imgurl" : "assets/img/categorias/colores/verde.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "grün"},
+                  {"id" : 2, "answer" : "weiß"},
+                  {"id" : 3, "answer" : "braun"},
+                  {"id" : 4, "answer" : "grau"},
+                  {"id" : 5, "answer" : "rot"}
+                ],
+                "correct" : 1
+              },
+              {"id" : 3, "question" : "¿De qué color son los tres gatos?",
+                "imgurl" : "assets/img/categorias/colores/negro.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "schwarz"},
+                  {"id" : 2, "answer" : "rot"},
+                  {"id" : 3, "answer" : "braun"},
+                  {"id" : 4, "answer" : "blau"},
+                  {"id" : 5, "answer" : "orange"}
+                ],
+                "correct" : 1
+              }
+            ]
+          },
+          {"id" : 2, "title" : "Nivel 2",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/colores.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/colores.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/colores.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
             "questions" : [
               {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
@@ -44,44 +92,12 @@
               }
             ]
           },
-          {"id" : 2, "title" : "Test 2",
-            "questions" : [
-              {"id" : 1, "question" : "Question 1",
-                "imgurl" : "assets/img/logo.png",
-                "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
-                ],
-                "correct" : 1
-              },
-              {"id" : 2, "question" : "Question 2",
-                "imgurl" : "assets/img/logo.png",
-                "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
-                ],
-                "correct" : 1
-              },
-              {"id" : 3, "question" : "Question 3",
-                "imgurl" : "assets/img/logo.png",
-                "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
-                ],
-                "correct" : 1
-              }
-            ]
-          },
-          {"id" : 3, "title" : "Test 3",
+          {"id" : 3, "title" : "Nivel 3",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/colores.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/colores.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/colores.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
             "questions" : [
               {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
@@ -122,9 +138,15 @@
       },
       {
         "id" : 2,
-        "title": "Animals",
+        "title": "Animales / Tiere",
+        "img" : "assets/img/categorias/animales.png",
         "quiz" : [
           {"id" : 1, "title" : "Test 1",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
             "questions" : [
               {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
@@ -162,6 +184,11 @@
             ]
           },
           {"id" : 2, "title" : "Test 2",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
             "questions" : [
               {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
@@ -199,6 +226,11 @@
             ]
           },
           {"id" : 3, "title" : "Test 3",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
             "questions" : [
               {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
@@ -239,9 +271,15 @@
       },
       {
         "id" : 3,
-        "title": "Food",
+        "title": "Comida / Mahlzeit",
+        "img" : "assets/img/categorias/comida.png",
         "quiz" : [
           {"id" : 1, "title" : "Test 1",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
             "questions" : [
               {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
@@ -279,6 +317,11 @@
             ]
           },
           {"id" : 2, "title" : "Test 2",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
             "questions" : [
               {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
@@ -316,6 +359,11 @@
             ]
           },
           {"id" : 3, "title" : "Test 3",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
             "questions" : [
               {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
@@ -356,9 +404,15 @@
       },
       {
         "id" : 4,
-        "title": "Family",
+        "title": "Números / Zhalen",
+        "img" : "assets/img/categorias/numeros.png",
         "quiz" : [
           {"id" : 1, "title" : "Test 1",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
             "questions" : [
               {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
@@ -396,6 +450,11 @@
             ]
           },
           {"id" : 2, "title" : "Test 2",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
             "questions" : [
               {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
@@ -433,6 +492,11 @@
             ]
           },
           {"id" : 3, "title" : "Test 3",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
             "questions" : [
               {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
@@ -473,9 +537,15 @@
       },
       {
         "id" : 5,
-        "title": "Numbers",
+        "title": "Familia",
+        "img" : "assets/img/categorias/logo.png",
         "quiz" : [
           {"id" : 1, "title" : "Test 1",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
             "questions" : [
               {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
@@ -513,6 +583,11 @@
             ]
           },
           {"id" : 2, "title" : "Test 2",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
             "questions" : [
               {"id" : 1, "question" : "Question 1",
                 "imgurl" : "assets/img/logo.png",
@@ -550,7 +625,11 @@
             ]
           },
           {"id" : 3, "title" : "Test 3",
-            "imgurl" : "assets/img/logo.png",
+            "intro": [
+              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+            ],
             "questions" : [
               {"id" : 1, "question" : "Question 1",
                 "answers" : [

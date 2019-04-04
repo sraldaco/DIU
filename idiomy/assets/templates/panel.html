@@ -3,16 +3,22 @@
     <h2 class="title">{{:title}}</h2>
     {{for items itemVar='~item'}}
       <div class="category animated {{if (#index+1) % 2 == 0}} bounceInLeft {{else}} bounceInRight {{/if}}">
-        <h3>{{:~item.title}}</h3>
+        <h3 class="icon">{{:~item.title}}</h3>
+
+        <button class="level animated pulse" data-category={{:~item.id}}>
+            <img src="{{:~item.img}}"/>
+        </button>
+
         {{for ~item.quiz itemVar='~quiz'}}
-          <div class="quiz-panel">
+          <div class="quiz-panel hide">
             <button class="testinit" data-category="{{:~item.id}}" data-quiz="{{:~quiz.id}}">
               {{:~quiz.title}}
             </button>
             <div class="score" data-category="{{:~item.id}}" data-quiz="{{:~quiz.id}}"></div>
           </div>
         {{/for}}
-      </div>
+        </div>
+      <br>
     {{/for}}
   </div>
 </script>
