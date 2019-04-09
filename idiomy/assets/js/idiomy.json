@@ -20,9 +20,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "weiß"},
                   {"id" : 2, "answer" : "orange"},
-                  {"id" : 3, "answer" : "grau"},
-                  {"id" : 4, "answer" : "rot"},
-                  {"id" : 5, "answer" : "blau"}
+                  {"id" : 3, "answer" : "grau"}
                 ],
                 "correct" : 2
               },
@@ -31,9 +29,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "grün"},
                   {"id" : 2, "answer" : "weiß"},
-                  {"id" : 3, "answer" : "braun"},
-                  {"id" : 4, "answer" : "grau"},
-                  {"id" : 5, "answer" : "rot"}
+                  {"id" : 3, "answer" : "braun"}
                 ],
                 "correct" : 1
               },
@@ -42,9 +38,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "schwarz"},
                   {"id" : 2, "answer" : "rot"},
-                  {"id" : 3, "answer" : "braun"},
-                  {"id" : 4, "answer" : "blau"},
-                  {"id" : 5, "answer" : "orange"}
+                  {"id" : 3, "answer" : "braun"}
                 ],
                 "correct" : 1
               }
@@ -62,9 +56,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -73,9 +65,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -84,9 +74,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               }
@@ -104,9 +92,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -115,9 +101,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -126,9 +110,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               }
@@ -153,9 +135,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -164,9 +144,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -175,9 +153,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               }
@@ -195,9 +171,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -206,9 +180,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -217,9 +189,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               }
@@ -237,9 +207,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -248,9 +216,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -259,9 +225,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               }
@@ -286,9 +250,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -297,9 +259,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -308,9 +268,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               }
@@ -328,9 +286,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -339,9 +295,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -350,9 +304,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               }
@@ -370,9 +322,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -381,9 +331,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -392,9 +340,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               }
@@ -419,9 +365,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -430,9 +374,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -441,9 +383,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               }
@@ -461,9 +401,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -472,9 +410,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -483,9 +419,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               }
@@ -503,9 +437,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -514,9 +446,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               },
@@ -525,141 +455,7 @@
                 "answers" : [
                   {"id" : 1, "answer" : "Answer 1 (correct)"},
                   {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
-                ],
-                "correct" : 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id" : 5,
-        "title": "Familia",
-        "img" : "assets/img/categorias/logo.png",
-        "quiz" : [
-          {"id" : 1, "title" : "Test 1",
-            "intro": [
-              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
-            ],
-            "questions" : [
-              {"id" : 1, "question" : "Question 1",
-                "imgurl" : "assets/img/logo.png",
-                "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
-                ],
-                "correct" : 1
-              },
-              {"id" : 2, "question" : "Question 2",
-                "imgurl" : "assets/img/logo.png",
-                "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
-                ],
-                "correct" : 1
-              },
-              {"id" : 3, "question" : "Question 3",
-                "imgurl" : "assets/img/logo.png",
-                "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
-                ],
-                "correct" : 1
-              }
-            ]
-          },
-          {"id" : 2, "title" : "Test 2",
-            "intro": [
-              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
-            ],
-            "questions" : [
-              {"id" : 1, "question" : "Question 1",
-                "imgurl" : "assets/img/logo.png",
-                "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
-                ],
-                "correct" : 1
-              },
-              {"id" : 2, "question" : "Question 2",
-                "imgurl" : "assets/img/logo.png",
-                "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
-                ],
-                "correct" : 1
-              },
-              {"id" : 3, "question" : "Question 3",
-                "imgurl" : "assets/img/logo.png",
-                "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
-                ],
-                "correct" : 1
-              }
-            ]
-          },
-          {"id" : 3, "title" : "Test 3",
-            "intro": [
-              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
-            ],
-            "questions" : [
-              {"id" : 1, "question" : "Question 1",
-                "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
-                ],
-                "correct" : 1
-              },
-              {"id" : 2, "question" : "Question 2",
-                "imgurl" : "assets/img/logo.png",
-                "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
-                ],
-                "correct" : 1
-              },
-              {"id" : 3, "question" : "Question 3",
-                "imgurl" : "assets/img/logo.png",
-                "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"},
-                  {"id" : 4, "answer" : "Answer 4"},
-                  {"id" : 5, "answer" : "Answer 5"}
+                  {"id" : 3, "answer" : "Answer 3"}
                 ],
                 "correct" : 1
               }

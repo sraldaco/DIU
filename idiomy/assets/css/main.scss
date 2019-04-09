@@ -17,11 +17,14 @@ body {
   }
 }
 
-
+@font-face{
+  font-family: "KidsZone";
+  src: url("/idiomy/assets/css/Kids\ Zone.woff");
+}
 
 #container {
   width: 100%;
-  max-width: 700px;
+  max-width: 1200px;
   margin: 0 auto;
   padding:0;
 }
@@ -42,17 +45,27 @@ body {
   }
 }
 .welcome {
-  margin-top: 20%;
   padding: 10%;
   font-size: 25px;
   background-color:  #cdedf6;
   text-align: center;
   background-color: transparent;
   width: 100%;
+  color: #003333;
+  h1{
+    font-family: 'KidsZone';
+    font-size: 3em;
+  }
+  p{
+    font-weight: bolder;
+  }
 }
 
 #bandera{
-  width: 30px;
+  width: 50px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 999px;
 }
 
 
@@ -60,23 +73,26 @@ body {
   width: 50%;
   font-size: 20px;
   padding: 15px 50px;
-  margin: 10px;
-  border: 2px;
-  border-radius: 5px;
-  background-color: #ef7b45;
+  margin-bottom: 50px;
+  border: 0px;
+  border-bottom: 5px solid #834426;
+  border-radius: 999px;
+  background-color: #ff9505;
   color: #000;
   transition-duration: 0.5s;
 }
 
 .skip-intro:hover{
   background-color: #d84727;
-  transition-duration: 0.5s;
+  border-color: #632112;
+  transition-duration: 0.3s;
   color: #FFF;
   cursor: pointer;
 }
 
 .panel {
   background-color: #ccccff;
+  opacity: 0.5;
 }
 
 .icon{
@@ -84,52 +100,77 @@ body {
 }
 
 .title{
-  background-color: #054a91;
-  color: #FFF;
-  border-radius: 5px;
-  padding: 5px 10px;
+  background-image: linear-gradient(to right, #1f363d, #40798c);
+  border-radius: 999px;
+  color: #cadadf;
+  padding: 0px 15px;
+  font-family: "KidsZone";
+  font-size: 2em;
+  letter-spacing: 10px;
 }
 
 .category{
   background-color: #ccccff;
   margin: 20px;
+  color: #003333;
   text-align: center;
   button:hover{
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
     cursor: pointer;
+    background-color: #66d1a1;
+    border-color: #448c6b;
+    transition: 0.5s;
+    color: black;
   }
   .level{
+    display: inline;
     background-color: #ccccff;
-    border: 2px solid black;
-    border-radius: 60px;
+    border: 4px solid #003333;
+    border-radius: 9999px;
     padding: 10px;
     img{
-      height: 100px;
+      height: 180px;
     }
   }
 } 
 
 .levels{
   background-color: #ccccff;
+  .btn-back{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background-image: url("/idiomy/assets/img/left-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: transparent;
+    border: 0px;
+  }
 }
-.btn-back{
-  padding: 10px;
-  width: 50px;
-  height: 50px;
-  background-image: url("/idiomy/assets/img/left-arrow.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-color: transparent;
-  border: 0px;
+
+.introducciones{
+  background-color: #c1ce97;
+  .btn-back{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background-image: url("/idiomy/assets/img/left-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: transparent;
+    border: 0px;
+  }
 }
+
+
 
 .btn-inicio{
   padding: 10px;
   width: 45px;
   height: 45px;
-  background-image: url("/idiomy/assets/img/menu.svg");
+  background-image: url("/idiomy/assets/img/home.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: transparent;
@@ -137,24 +178,36 @@ body {
 }
 
 .testinit{
-  background-color: #38023b;
+  background-color: #197c76;
   color: #FFF;
+  font-weight: bolder;
   font-size: 1em;
+  width: 200px;
   padding: 5px 10px;
-  border: 0px;
+  border: 2px solid black;
   border-radius: 5px;
   margin: 10px;
-}
-
-.introducciones{
-  background-color: #c1ce97;
-
 }
 
 .question{
   background-color: #efefef;
   height: auto;
   text-align: center;
+  h2{
+    text-align: left;
+  }
+  .btn-back{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background-image: url("/idiomy/assets/img/left-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: transparent;
+    border: 0px;
+    float: left;
+  }
+
   .picture{
     width: 50%;
     margin: auto;
@@ -171,13 +224,70 @@ body {
     width: 50%;
     padding: 10px 15px;
     border: 0px;
+    border-bottom: 4px solid #c97c5d;
     border-radius: 10px;
     margin: 15px;
     font-size: 1.2em;
     font-weight: bold;
   }
+  .answer-button:hover{
+    transition: 0.3s;
+    background-color: #c97c5d;
+    border-color: #a44a3f;
+    color: #FFF;
+  }
 }
 
+.resume{
+  background-color: #ccccff;
+  text-align: center;
+}
+
+.resume .buttons{
+  background-color: transparent;
+  #reload{
+    margin: 15px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: transparent;
+    border: 5px solid black;
+    border-radius: 999px;
+    text-align: center;
+    img{
+      height: 100px;
+    }
+  }
+
+  #reload:hover{
+    animation: animated pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    cursor: pointer;
+
+  }
+
+  #menu{
+    margin: 15px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: transparent;
+    border: 5px solid #000;
+    border-radius: 999px;
+    text-align: center;
+    img{
+      height: 100px;
+    }
+  }
+  #menu:hover{
+    animation: animated pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    cursor: pointer;
+
+  }
+}
 
 .score{
   width: 100px;
