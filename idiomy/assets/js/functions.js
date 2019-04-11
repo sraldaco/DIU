@@ -12,29 +12,29 @@ function renderPanel() {
     var template = $.templates("#panel");
     var htmlOutput = template.render(categories);
     $('#container').html(htmlOutput);
-    var score = JSON.parse(localStorage.getItem("score"));
-    $('.score').each(function(){
-      $(this).printScorePanel(score);
-    });
   });
 }
 
 function renderIntro() {
   $('#container').load('assets/templates/introduccion.html',function(){
-    var template = $.templates("#introducciones");
+    var template = $.templates("#intros");
     var htmlOutput = template.render(categories);
     $('#container').html(htmlOutput);
 
   });
 }
 
-function renderLevels() {
-
+$.fn.renderLevels = function() {
+  var categoryID = this.attr('data-category');
+  var levels = categories.items[categoryID-1];
   $('#container').load('assets/templates/levels.html',function(){
     var template = $.templates("#levels");
-    var htmlOutput = template.render(categories);
+    var htmlOutput = template.render(levels);
     $('#container').html(htmlOutput);
-
+    var score = JSON.parse(localStorage.getItem("score"));
+    $('.score').each(function(){
+      $(this).printScorePanel(score);
+    });
   });
 }
 

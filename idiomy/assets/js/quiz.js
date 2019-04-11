@@ -49,13 +49,22 @@ $('#container').on('click','#menu', function(){
   });
 });
 
-$('#container').on('click','#levels', function(){
-  current = 0;
-  $('#container').load('assets/templates/levels.html',function(){
-    renderLevels(categories);
-  });
+$('#container').on('click','.skip',function(){
+  showQuiz();
 });
 
-function showLevels(){
-  $(this).parent().children('.hide').removeClass("hide");
+$('#container').on('click','.next-intro',function(){
+  var target = $(this).attr("data-target");
+  var items = $(".intro.item");
+  if (target < items.length) {
+    $(".intro.item.fadeInUp").removeClass("fadeInUp").addClass("hide");
+    $(items[target]).addClass("fadeInUp").removeClass("hide");
+  } else {
+    showQuiz();
+  }
+});
+
+function showQuiz() {
+  $("#intro").addClass("hide");
+  $(".quiz.items").removeClass("hide");
 }

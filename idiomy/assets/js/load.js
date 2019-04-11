@@ -29,20 +29,6 @@ $(function() {
   });
 
   $('#container').on('click','.level',function(e){
-    e.preventDefault();
-    renderLevels(categories);
-    console.log("Clic level");
-    //renderIntro(categories);
+    $(this).renderLevels();
   });
-
-  $('#container').on('click','.introduccion',function(e){
-    e.preventDefault();
-    renderIntro(categories);
-  });
-
-
-  $('#container').on('click','.icon',function(e){
-    $(this).parent().children('.hide').removeClass("hide");
-  });
-
 });

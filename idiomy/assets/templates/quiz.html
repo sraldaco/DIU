@@ -1,7 +1,19 @@
 
 <script id="quiz" type="text/x-jsrender">
   <div id="quiz-data" data-category="{{:category}}" data-quiz="{{:id}}">
-    <div id="items"></div>
+    <div id="intro">
+      {{for intro}}
+      <div class="intro item {{if id != 1}}hide {{else}} fadeInUp {{/if}}">
+          <img src="{{:img}}" class="fluid-img">
+          <div class="content">
+            {{:text}}
+          </div>
+          <button class="next-intro" data-target="{{:id}}">Next intro</button>
+      </div>
+      {{/for}}
+      <button class="skip">Skip</button>
+    </div>
+    <div id="items" class="quiz items hide"></div>
     <div class="can item-wrapper animated hide">
       <div id="message">Mensaje</div>
       <img src="assets/img/perro.png" alt="mensaje" class="fluid-img">
@@ -23,3 +35,5 @@
     </div>
   </div>
 </script>
+
+
