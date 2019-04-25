@@ -125,19 +125,19 @@
         "quiz" : [
           {"id" : 1, "title" : "Nivel 1",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+              {"id": 1, "img": "assets/img/categorias/animales/dog.png", "text": "El mejor amigo del hombre es el perro (hund)"},
+              {"id": 2, "img": "assets/img/categorias/animales/cat.png", "text": "El gato (katze) se limpia a si mismo"},
+              {"id": 3, "img": "assets/img/categorias/animales/pig.png", "text": "El cerdito (schwein) es un animal muy amigable"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿Qué animal es?",
                 "imgurl" : "assets/img/categorias/animales/dog.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Hund"},
-                  {"id" : 2, "answer" : "Wolf"},
+                  {"id" : 1, "answer" : "Wolf"},
+                  {"id" : 2, "answer" : "Hund"},
                   {"id" : 3, "answer" : "Owl"}
                 ],
-                "correct" : 1
+                "correct" : 2
               },
               {"id" : 2, "question" : "¿Y este, qué animal crees que sea?",
                 "imgurl" : "assets/img/categorias/animales/cat.png",
@@ -151,55 +151,55 @@
               {"id" : 3, "question" : "Ya estás cerca de acabar, ¿Qué animal es el siguiente?",
                 "imgurl" : "assets/img/categorias/animales/pig.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Schwein"},
+                  {"id" : 1, "answer" : "Ente"},
                   {"id" : 2, "answer" : "Hund"},
-                  {"id" : 3, "answer" : "Ente"}
+                  {"id" : 3, "answer" : "Schwein"}
                 ],
-                "correct" : 1
+                "correct" : 3
               }
             ]
           },
           {"id" : 2, "title" : "Nivel 2",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+              {"id": 1, "img": "assets/img/categorias/animales/lion.png", "text": "El rey es el león (Löwe)"},
+              {"id": 2, "img": "assets/img/categorias/animales/giraffe.png", "text": "La jirafa (giraffe) puede alcanzar 15 metros de altura"},
+              {"id": 3, "img": "assets/img/categorias/animales/wolf.png", "text": "El lobo (wolfe) es muy feroz"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿Cuál crees que sea el animal?",
                 "imgurl" : "assets/img/categorias/animales/lion.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Löwe"},
+                  {"id" : 1, "answer" : "Bär"},
                   {"id" : 2, "answer" : "Wolfe"},
-                  {"id" : 3, "answer" : "Bär"}
+                  {"id" : 3, "answer" : "Löwe"}
                 ],
-                "correct" : 1
+                "correct" : 3
               },
               {"id" : 2, "question" : "¿Cuál es su nombre en alemán?",
                 "imgurl" : "assets/img/categorias/animales/giraffe.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Giraffe"},
+                  {"id" : 1, "answer" : "Affe"},
                   {"id" : 2, "answer" : "Ente"},
-                  {"id" : 3, "answer" : "Affe"}
+                  {"id" : 3, "answer" : "Giraffe"}
                 ],
-                "correct" : 1
+                "correct" : 3
               },
               {"id" : 3, "question" : "¿Qué animal crees que sea?",
                 "imgurl" : "assets/img/categorias/animales/wolf.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Wolfe"},
-                  {"id" : 2, "answer" : "Löwe"},
+                  {"id" : 1, "answer" : "Löwe"},
+                  {"id" : 2, "answer" : "Wolfe"},
                   {"id" : 3, "answer" : "Hund"}
                 ],
-                "correct" : 1
+                "correct" : 2
               }
             ]
           },
           {"id" : 3, "title" : "Nivel 3",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+              {"id": 1, "img": "assets/img/categorias/animales/monkey.png", "text": "Al mono (affe) le gusta trepar los árboles"},
+              {"id": 2, "img": "assets/img/categorias/animales/duck.png", "text": "El pato (ente) es muy pacífico"},
+              {"id": 3, "img": "assets/img/categorias/animales/owl.png", "text": "El búho (owl) es nocturno"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿Cómo se dirá este animal?",
@@ -223,11 +223,11 @@
               {"id" : 3, "question" : "¿Y quién será esta famosa ave?",
                 "imgurl" : "assets/img/categorias/animales/owl.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Eule"},
+                  {"id" : 1, "answer" : "Ente"},
                   {"id" : 2, "answer" : "Affe"},
-                  {"id" : 3, "answer" : "Ente"}
+                  {"id" : 3, "answer" : "Eule"}
                 ],
-                "correct" : 1
+                "correct" : 3
               }
             ]
           }
@@ -240,28 +240,28 @@
         "quiz" : [
           {"id" : 1, "title" : "Nivel 1",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+              {"id": 1, "img": "assets/img/categorias/comida/apple.png", "text": "La manzana (apfel) es muy jugosa"},
+              {"id": 2, "img": "assets/img/categorias/comida/orange.png", "text": "En el desayuno tomamos jugo de naranja (orange)"},
+              {"id": 3, "img": "assets/img/categorias/comida/lemon.png", "text": "Los tacos saben más ricos con limón (zitrone)"}
             ],
             "questions" : [
               {"id" : 1, "question" : "Una fruta muy conocida, ¿Cómo se dirá?",
                 "imgurl" : "assets/img/categorias/comida/apple.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Apfel"},
-                  {"id" : 2, "answer" : "Orange"},
+                  {"id" : 1, "answer" : "Orange"},
+                  {"id" : 2, "answer" : "Apfel"},
                   {"id" : 3, "answer" : "Erdbeere"}
                 ],
-                "correct" : 1
+                "correct" : 2
               },
               {"id" : 2, "question" : "¿Cómo se llama esta fruta?",
                 "imgurl" : "assets/img/categorias/comida/orange.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Orange"},
-                  {"id" : 2, "answer" : "Zitrone"},
+                  {"id" : 1, "answer" : "Zitrone"},
+                  {"id" : 2, "answer" : "Orange"},
                   {"id" : 3, "answer" : "Banane"}
                 ],
-                "correct" : 1
+                "correct" : 2
               },
               {"id" : 3, "question" : "El limón es un cítrico, ¿Sabes cómo se llama?",
                 "imgurl" : "assets/img/categorias/comida/lemon.png",
@@ -276,28 +276,28 @@
           },
           {"id" : 2, "title" : "Nivel 2",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+              {"id": 1, "img": "assets/img/categorias/comida/carrot.png", "text": "Dicen que la zanahoria (karotte) mejora la vista"},
+              {"id": 2, "img": "assets/img/categorias/comida/pineapple.png", "text": "Piña (ananas) para la niña"},
+              {"id": 3, "img": "assets/img/categorias/comida/cheese.png", "text": "La Luna es de queso (käse)"}
             ],
             "questions" : [
               {"id" : 1, "question" : "La comida favorita de los conejos se dice...",
                 "imgurl" : "assets/img/categorias/comida/carrot.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Karotte"},
+                  {"id" : 1, "answer" : "Traube"},
                   {"id" : 2, "answer" : "Kirsche"},
-                  {"id" : 3, "answer" : "Traube"}
+                  {"id" : 3, "answer" : "Karotte"}
                 ],
-                "correct" : 1
+                "correct" : 3
               },
               {"id" : 2, "question" : "En alemán, ¿Cómo se dice la piña?",
                 "imgurl" : "assets/img/categorias/comida/pineapple.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Ananas"},
+                  {"id" : 1, "answer" : "Traube"},
                   {"id" : 2, "answer" : "Kirsche"},
-                  {"id" : 3, "answer" : "Traube"}
+                  {"id" : 3, "answer" : "Ananas"}
                 ],
-                "correct" : 1
+                "correct" : 3
               },
               {"id" : 3, "question" : "El alimento predilecto de los ratones se dice..",
                 "imgurl" : "assets/img/categorias/comida/cheese.png",
@@ -312,37 +312,37 @@
           },
           {"id" : 3, "title" : "Nivel 3",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+              {"id": 1, "img": "assets/img/categorias/comida/milk.png", "text": "La leche (milch) es nutritiva"},
+              {"id": 2, "img": "assets/img/categorias/comida/fish.png", "text": "En la playa se come pescado (fisch)"},
+              {"id": 3, "img": "assets/img/categorias/comida/cake.png", "text": "No hay mejor postre que un buen pastel (kuchen)"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿Cómo se dice leche?",
                 "imgurl" : "assets/img/categorias/comida/milk.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Milch"},
-                  {"id" : 2, "answer" : "Joghurt"},
+                  {"id" : 1, "answer" : "Joghurt"},
+                  {"id" : 2, "answer" : "Milch"},
                   {"id" : 3, "answer" : "Käse"}
                 ],
-                "correct" : 1
+                "correct" : 2
               },
               {"id" : 2, "question" : "¿El pescado?",
                 "imgurl" : "assets/img/categorias/comida/fish.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Fisch"},
-                  {"id" : 2, "answer" : "Fleisch"},
-                  {"id" : 3, "answer" : "Truthahn"}
+                  {"id" : 1, "answer" : "Fleisch"},
+                  {"id" : 2, "answer" : "Truthahn"},
+                  {"id" : 3, "answer" : "Fisch"}
                 ],
-                "correct" : 1
+                "correct" : 3
               },
               {"id" : 3, "question" : "Podrás comer un pastel si sabes como se dice en alemán...",
                 "imgurl" : "assets/img/categorias/comida/cake.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Kuchen"},
-                  {"id" : 2, "answer" : "Truthahn"},
-                  {"id" : 3, "answer" : "Schokolade"}
+                  {"id" : 1, "answer" : "Schokolade"},
+                  {"id" : 2, "answer" : "Kuchen"},
+                  {"id" : 3, "answer" : "Truthahn"}
                 ],
-                "correct" : 1
+                "correct" : 2
               }
             ]
           }
