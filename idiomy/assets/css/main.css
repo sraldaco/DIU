@@ -354,3 +354,33 @@ body {
   right: 0;
 }
 /*# sourceMappingURL=main.css.map */
+
+.skip{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #A11B14;
+  border-radius: 6px;
+}
+.skip:hover{
+  cursor: pointer;
+  color: #A11B14;
+  background-color: #F4C67F;
+}
+
+.next-intro{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #A11B14;
+  border-radius: 6px;
+}
+.next-intro:hover{
+  cursor: pointer;
+  color: #A11B14;
+  background-color: #F4C67F;
+}
