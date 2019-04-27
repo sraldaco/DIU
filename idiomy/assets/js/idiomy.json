@@ -10,9 +10,9 @@
         "quiz" : [
           {"id" : 1, "title" : "Nivel 1",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/colores.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/colores.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/colores.jpeg", "text": "El sol es amarillo (gelb)"}
+              {"id": 1, "img": "assets/img/categorias/colores/orange-slice.png", "text": "La rebanada de naranja es naranja (orange)"},
+              {"id": 2, "img": "assets/img/categorias/colores/trees-green.png", "text": "Las hojas del árbol son verdes (grün)"},
+              {"id": 3, "img": "assets/img/categorias/colores/black-cat.png", "text": "El gatito es negro (schwarz)"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿De qué color es la naranja?",
@@ -25,7 +25,7 @@
                 "correct" : 2
               },
               {"id" : 2, "question" : "¿De qué color son las hojas del árbol?",
-                "imgurl" : "assets/img/categorias/colores/verde.png",
+                "imgurl" : "assets/img/categorias/colores/trees-green.png",
                 "answers" : [
                   {"id" : 1, "answer" : "grün"},
                   {"id" : 2, "answer" : "weiß"},
@@ -33,8 +33,8 @@
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "¿De qué color son los tres gatos?",
-                "imgurl" : "assets/img/categorias/colores/negro.png",
+              {"id" : 3, "question" : "¿De qué color es el gatito?",
+                "imgurl" : "assets/img/categorias/colores/black-cat.png",
                 "answers" : [
                   {"id" : 1, "answer" : "schwarz"},
                   {"id" : 2, "answer" : "rot"},
@@ -46,71 +46,159 @@
           },
           {"id" : 2, "title" : "Nivel 2",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/colores.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/colores.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/colores.jpeg", "text": "El sol es amarillo (gelb)"}
+              {"id": 1, "img": "assets/img/categorias/colores/like-red2.png", "text": "El corazón es rojo (rot)"},
+              {"id": 2, "img": "assets/img/categorias/colores/car-blue.png", "text": "El carrito es azul (blau)"},
+              {"id": 3, "img": "assets/img/categorias/colores/taxi-yellow.png", "text": "El taxi es amarillo (gelb)"}
             ],
             "questions" : [
-              {"id" : 1, "question" : "Question 1",
-                "imgurl" : "assets/img/logo.png",
+              {"id" : 1, "question" : "¿De qué color es el fuego?",
+                "imgurl" : "assets/img/categorias/colores/flame-red.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
+                  {"id" : 1, "answer" : "weiß"},
+                  {"id" : 2, "answer" : "grün"},
+                  {"id" : 3, "answer" : "rot"}
+                ],
+                "correct" : 3
+              },
+              
+              {"id" : 2, "question" : "¿De qué color son las hojas del árbol?",
+                "imgurl" : "assets/img/categorias/colores/trees-green.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "grün"},
+                  {"id" : 2, "answer" : "weiß"},
+                  {"id" : 3, "answer" : "braun"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Question 2",
-                "imgurl" : "assets/img/logo.png",
+            
+              
+              {"id" : 2, "question" : "¿De qué color es el carro?",
+                "imgurl" : "assets/img/categorias/colores/car-blue.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
+                  {"id" : 1, "answer" : "blau"},
+                  {"id" : 2, "answer" : "schwarz"},
+                  {"id" : 3, "answer" : "braun"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Question 3",
-                "imgurl" : "assets/img/logo.png",
+              {"id" : 3, "question" : "¿De qué color es el gatito?",
+                "imgurl" : "assets/img/categorias/colores/black-cat.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
+                  {"id" : 1, "answer" : "schwarz"},
+                  {"id" : 2, "answer" : "rot"},
+                  {"id" : 3, "answer" : "braun"}
                 ],
                 "correct" : 1
+              },
+              {"id" : 3, "question" : "¿De qué color es la estrella?",
+                "imgurl" : "assets/img/categorias/colores/star.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "gelb"},
+                  {"id" : 2, "answer" : "rot"},
+                  {"id" : 3, "answer" : "orange"}
+                ],
+                "correct" : 1
+              },
+              {"id" : 1, "question" : "¿De qué color es la naranja?",
+                "imgurl" : "assets/img/categorias/colores/orange.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "weiß"},
+                  {"id" : 2, "answer" : "orange"},
+                  {"id" : 3, "answer" : "grau"}
+                ],
+                "correct" : 2
               }
+          
             ]
           },
           {"id" : 3, "title" : "Nivel 3",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/colores.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/colores.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/colores.jpeg", "text": "El sol es amarillo (gelb)"}
+              {"id": 1, "img": "assets/img/categorias/colores/ambulance-white1.png", "text": "La ambulancia es blanca (weiß)"},
+              {"id": 2, "img": "assets/img/categorias/colores/monkey.png", "text": "El changuito es café (braun)"},
+              {"id": 3, "img": "assets/img/categorias/colores/pig.png", "text": "El puerquito es rosa (rosa)"}
             ],
             "questions" : [
-              {"id" : 1, "question" : "Question 1",
-                "imgurl" : "assets/img/logo.png",
+
+              {"id" : 1, "question" : "¿De qué color es la rebanada de naranja?",
+                "imgurl" : "assets/img/categorias/colores/orange-slice.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
+                  {"id" : 1, "answer" : "weiß"},
+                  {"id" : 2, "answer" : "orange"},
+                  {"id" : 3, "answer" : "grau"}
+                ],
+                "correct" : 2
+              },
+              {"id" : 2, "question" : "¿De qué color son las hojas del árbol?",
+                "imgurl" : "assets/img/categorias/colores/trees-green.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "grün"},
+                  {"id" : 2, "answer" : "weiß"},
+                  {"id" : 3, "answer" : "braun"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Question 2",
-                "imgurl" : "assets/img/logo.png",
+
+              {"id" : 1, "question" : "¿De qué color es la nave espacial?",
+                "imgurl" : "assets/img/categorias/colores/rocket-ship--white2.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
+                  {"id" : 1, "answer" : "blau"},
+                  {"id" : 2, "answer" : "schwarz"},
+                  {"id" : 3, "answer" : "weiß"}
+                ],
+                "correct" : 3
+              },
+              {"id" : 3, "question" : "¿De qué color es el gatito?",
+                "imgurl" : "assets/img/categorias/colores/black-cat.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "schwarz"},
+                  {"id" : 2, "answer" : "rot"},
+                  {"id" : 3, "answer" : "braun"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Question 3",
-                "imgurl" : "assets/img/logo.png",
+              {"id" : 1, "question" : "¿De qué color es el fuego?",
+                "imgurl" : "assets/img/categorias/colores/flame-red.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
+                  {"id" : 1, "answer" : "weiß"},
+                  {"id" : 2, "answer" : "grün"},
+                  {"id" : 3, "answer" : "rot"}
+                ],
+                "correct" : 3
+              },
+
+              {"id" : 2, "question" : "¿De qué color es el búho?",
+                "imgurl" : "assets/img/categorias/colores/owl2.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "blau"},
+                  {"id" : 2, "answer" : "braun"},
+                  {"id" : 3, "answer" : "grau"}
+                ],
+                "correct" : 2
+              },
+              {"id" : 3, "question" : "¿De qué color es la estrella?",
+                "imgurl" : "assets/img/categorias/colores/star.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "gelb"},
+                  {"id" : 2, "answer" : "rot"},
+                  {"id" : 3, "answer" : "orange"}
+                ],
+                "correct" : 1
+              },
+              {"id" : 2, "question" : "¿De qué color es el carro?",
+                "imgurl" : "assets/img/categorias/colores/car-blue.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "blau"},
+                  {"id" : 2, "answer" : "schwarz"},
+                  {"id" : 3, "answer" : "braun"}
+                ],
+                "correct" : 1
+              },
+              {"id" : 3, "question" : "¿De qué color es la flor?",
+                "imgurl" : "assets/img/categorias/colores/cherry-blossom.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "rosa"},
+                  {"id" : 2, "answer" : "rot"},
+                  {"id" : 3, "answer" : "weiß"}
                 ],
                 "correct" : 1
               }
@@ -355,109 +443,192 @@
         "quiz" : [
           {"id" : 1, "title" : "Test 1",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+              {"id": 1, "img": "assets/img/categorias/numeros/one.png", "text": "El número 'uno' en alemán se escribe 'eins'"},
+              {"id": 2, "img": "assets/img/categorias/numeros/two.png", "text": "El número 'dos' en alemán se escribe 'zwei'"},
+              {"id": 3, "img": "assets/img/categorias/numeros/three.png", "text": "El número 'tres' en alemán se escribe 'drei'"}
             ],
             "questions" : [
-              {"id" : 1, "question" : "Question 1",
-                "imgurl" : "assets/img/logo.png",
+              {"id" : 1, "question" : "¿Cómo se escribe '1' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/1.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
+                  {"id" : 1, "answer" : "sechs"},
+                  {"id" : 2, "answer" : "eins"},
+                  {"id" : 3, "answer" : "vier"}
+                ],
+                "correct" : 2
+              },
+              {"id" : 2, "question" : "¿Cómo se escribe '2' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/2.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "zwei"},
+                  {"id" : 2, "answer" : "fünf"},
+                  {"id" : 3, "answer" : "drei"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Question 2",
-                "imgurl" : "assets/img/logo.png",
+              {"id" : 3, "question" : "¿Cómo se escribe '3' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/3.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
+                  {"id" : 1, "answer" : "sieben"},
+                  {"id" : 2, "answer" : "drei"},
+                  {"id" : 3, "answer" : "eins"}
                 ],
-                "correct" : 1
-              },
-              {"id" : 3, "question" : "Question 3",
-                "imgurl" : "assets/img/logo.png",
-                "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
-                ],
-                "correct" : 1
+                "correct" : 2
               }
             ]
           },
           {"id" : 2, "title" : "Test 2",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+              {"id": 1, "img": "assets/img/categorias/numeros/four.png", "text": "El número 'cuatro' en alemán se escribe 'vier'"},
+              {"id": 2, "img": "assets/img/categorias/numeros/five.png", "text": "El número 'cinco' en alemán se escribe 'fünf'"},
+              {"id": 3, "img": "assets/img/categorias/numeros/six.png", "text": "El número 'seis' en alemán se escribe 'sechs'"}
             ],
             "questions" : [
-              {"id" : 1, "question" : "Question 1",
-                "imgurl" : "assets/img/logo.png",
+              
+              {"id" : 1, "question" : "¿Cómo se escribe '2' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/2.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
+                  {"id" : 1, "answer" : "zwei"},
+                  {"id" : 2, "answer" : "fünf"},
+                  {"id" : 3, "answer" : "drei"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Question 2",
-                "imgurl" : "assets/img/logo.png",
+
+              {"id" : 2, "question" : "¿Cómo se escribe '4' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/4.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
+                  {"id" : 1, "answer" : "zwei"},
+                  {"id" : 2, "answer" : "sechs"},
+                  {"id" : 3, "answer" : "vier"}
                 ],
-                "correct" : 1
+                "correct" : 3
               },
-              {"id" : 3, "question" : "Question 3",
-                "imgurl" : "assets/img/logo.png",
+              {"id" : 3, "question" : "¿Cómo se escribe '3' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/3.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
+                  {"id" : 1, "answer" : "sieben"},
+                  {"id" : 2, "answer" : "drei"},
+                  {"id" : 3, "answer" : "eins"}
                 ],
-                "correct" : 1
+                "correct" : 2
+              },
+              {"id" : 4, "question" : "¿Cómo se escribe '1' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/1.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "sechs"},
+                  {"id" : 2, "answer" : "eins"},
+                  {"id" : 3, "answer" : "vier"}
+                ],
+                "correct" : 2
+              },
+              {"id" : 5, "question" : "¿Cómo se escribe '6' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/6.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "eins"},
+                  {"id" : 2, "answer" : "acht"},
+                  {"id" : 3, "answer" : "sechs"}
+                ],
+                "correct" : 3
+              },
+              {"id" : 6, "question" : "¿Cómo se escribe '5' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/5.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "zwei"},
+                  {"id" : 2, "answer" : "fünf"},
+                  {"id" : 3, "answer" : "neun"}
+                ],
+                "correct" : 2
               }
             ]
           },
           {"id" : 3, "title" : "Test 3",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/rojo.jpeg", "text": "El pájaro es Rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/azul.jpeg", "text": "El cielo es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/amarillo.jpeg", "text": "El sol es amarillo (gelb)"}
+              {"id": 1, "img": "assets/img/categorias/numeros/seven.png", "text": "El número 'siete' en alemán se escribe 'sieben'"},
+              {"id": 2, "img": "assets/img/categorias/numeros/eight.png", "text": "El número 'ocho' en alemán se escribe 'acht'"},
+              {"id": 3, "img": "assets/img/categorias/numeros/nine.png", "text": "El número 'nueve' en alemán se escribe 'neun'"}
             ],
             "questions" : [
-              {"id" : 1, "question" : "Question 1",
-                "imgurl" : "assets/img/logo.png",
+              {"id" : 1, "question" : "¿Cómo se escribe '5' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/5.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
+                  {"id" : 1, "answer" : "zwei"},
+                  {"id" : 2, "answer" : "fünf"},
+                  {"id" : 3, "answer" : "neun"}
+                ],
+                "correct" : 2
+              },
+              {"id" : 2, "question" : "¿Cómo se escribe '1' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/1.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "sechs"},
+                  {"id" : 2, "answer" : "eins"},
+                  {"id" : 3, "answer" : "vier"}
+                ],
+                "correct" : 2
+              },
+              {"id" : 3, "question" : "¿Cómo se escribe '9' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/9.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "neun"},
+                  {"id" : 2, "answer" : "fünf"},
+                  {"id" : 3, "answer" : "acht"}
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "Question 2",
-                "imgurl" : "assets/img/logo.png",
+              {"id" : 1, "question" : "¿Cómo se escribe '3' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/3.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
+                  {"id" : 1, "answer" : "sieben"},
+                  {"id" : 2, "answer" : "drei"},
+                  {"id" : 3, "answer" : "eins"}
+                ],
+                "correct" : 2
+              },
+              {"id" : 2, "question" : "¿Cómo se escribe '2' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/2.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "zwei"},
+                  {"id" : 2, "answer" : "fünf"},
+                  {"id" : 3, "answer" : "drei"}
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "Question 3",
-                "imgurl" : "assets/img/logo.png",
+              {"id" : 3, "question" : "¿Cómo se escribe '7' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/7.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "Answer 1 (correct)"},
-                  {"id" : 2, "answer" : "Answer 2"},
-                  {"id" : 3, "answer" : "Answer 3"}
+                  {"id" : 1, "answer" : "sechs"},
+                  {"id" : 2, "answer" : "zehn"},
+                  {"id" : 3, "answer" : "sieben"}
                 ],
-                "correct" : 1
+                "correct" : 3
+              },
+              {"id" : 1, "question" : "¿Cómo se escribe '4' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/4.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "zwei"},
+                  {"id" : 2, "answer" : "sechs"},
+                  {"id" : 3, "answer" : "vier"}
+                ],
+                "correct" : 3
+              },
+              {"id" : 2, "question" : "¿Cómo se escribe '6' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/6.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "eins"},
+                  {"id" : 2, "answer" : "acht"},
+                  {"id" : 3, "answer" : "sechs"}
+                ],
+                "correct" : 3
+              },
+              {"id" : 3, "question" : "¿Cómo se escribe '8' en alemán?",
+                "imgurl" : "assets/img/categorias/numeros/8.png",
+                "answers" : [
+                  {"id" : 1, "answer" : "zwei"},
+                  {"id" : 2, "answer" : "acht"},
+                  {"id" : 3, "answer" : "vier"}
+                ],
+                "correct" : 2
               }
             ]
           }
