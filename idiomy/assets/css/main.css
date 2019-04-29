@@ -357,30 +357,32 @@ body {
 
 .skip{
   text-decoration: none;
+  width: 120px;
   padding: 10px;
   font-weight: 600;
-  font-size: 20px;
-  color: #ffffff;
-  background-color: #A11B14;
-  border-radius: 6px;
+  font-size: 18px;
+  color: #FFF;
+  background-color: #00008B;
+  border-radius: 2px;
 }
 .skip:hover{
   cursor: pointer;
-  color: #A11B14;
-  background-color: #F4C67F;
+  color: #00008B;
+  background-color: #87CEEB;
 }
 
 .next-intro{
+  width: 120px;
   text-decoration: none;
   padding: 10px;
   font-weight: 600;
-  font-size: 20px;
-  color: #ffffff;
-  background-color: #A11B14;
-  border-radius: 6px;
+  font-size: 18px;
+  color: #FFF;
+  background-color: #00008B;
+  border-radius: 2px;
 }
 .next-intro:hover{
   cursor: pointer;
-  color: #A11B14;
-  background-color: #F4C67F;
+  color: #00008B;
+  background-color: #87CEEB;
 }
