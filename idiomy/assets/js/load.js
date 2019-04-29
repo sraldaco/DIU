@@ -21,10 +21,10 @@ $(function() {
   });
   $('#container').on('click','.skip-intro',function(e){
     e.preventDefault();
-    var chk = document.getElementById("remember").checked;
+    /*var chk = document.getElementById("remember").checked;
     if (chk) {
       localStorage.setItem("skip", "true");
-    }
+    }*/
     renderPanel(categories);
   });
 
