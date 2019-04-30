@@ -17,6 +17,11 @@ body {
   }
 }
 
+#bandera-alemania{
+  height: 6em;
+  float: right;
+}
+
 @font-face{
   font-family: "KidsZone";
   src: url("/idiomy/assets/css/Kids\ Zone.woff");
@@ -45,6 +50,7 @@ body {
   }
 }
 .welcome {
+  font-family: 'Chewy', cursive;
   padding: 10%;
   font-size: 25px;
   background-color:  #cdedf6;
@@ -78,7 +84,8 @@ body {
   border-bottom: 5px solid #834426;
   border-radius: 999px;
   background-color: #ff9505;
-  color: #000;
+  color: #003333;
+  font-family: 'Chewy', cursive;
   transition-duration: 0.5s;
 }
 
@@ -93,6 +100,7 @@ body {
 .panel {
   background-color: #ccccff;
   opacity: 0.5;
+  font-family: 'Chewy', cursive;
 }
 
 .icon{
@@ -100,17 +108,17 @@ body {
 }
 
 .title{
-  background-image: linear-gradient(to right, #1f363d, #40798c);
+  font-family: 'Denk One', sans-serif;
+  background-color: #003333;
   border-radius: 999px;
-  color: #cadadf;
+  color: #ffffff;
   padding: 0px 15px;
-  font-family: "KidsZone";
   font-size: 2em;
   letter-spacing: 10px;
 }
 
 .category{
-  background-color: #ccccff;
+  background-color: transparent;
   margin: 20px;
   color: #003333;
   text-align: center;
@@ -131,7 +139,7 @@ body {
     border-radius: 9999px;
     padding: 10px;
     img{
-      height: 180px;
+      height: 150px;
     }
   }
 } 
