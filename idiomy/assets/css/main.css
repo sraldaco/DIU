@@ -214,6 +214,10 @@ body {
   margin: 10px;
 }
 
+.testinit:hover{
+  cursor: pointer;
+}
+
 .question {
   background-color: #efefef;
   height: auto;
