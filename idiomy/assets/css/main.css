@@ -127,6 +127,10 @@ body {
   letter-spacing: 10px;
 }
 
+.btn-back:hover{
+  cursor: pointer;
+}
+
 .category {
   background-color: transparent;
   margin: 20px;
