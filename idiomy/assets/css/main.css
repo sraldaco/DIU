@@ -203,18 +203,19 @@ body {
 }
 
 .testinit {
-  background-color: #197c76;
-  color: #FFF;
+  background-color: #FF0;
+  color: #000040;
   font-weight: bolder;
   font-size: 1em;
   width: 200px;
   padding: 5px 10px;
-  border: 2px solid black;
+  border: 2px solid #000040;
   border-radius: 5px;
   margin: 10px;
 }
 
 .testinit:hover{
+  background-color: #FFBB2F;
   cursor: pointer;
 }
 
@@ -267,6 +268,7 @@ body {
 
 .question .answer-button:hover {
   -webkit-transition: 0.3s;
+  cursor: pointer;
   transition: 0.3s;
   background-color: #c97c5d;
   border-color: #a44a3f;
@@ -387,7 +389,8 @@ body {
   font-size: 18px;
   color: #000040;
   background-color: #FEBF01;
-  border-radius: 8px;
+  border: #000040;
+  border-radius: 5px;
 }
 .skip:hover, .next-intro:hover{
   cursor: pointer;
