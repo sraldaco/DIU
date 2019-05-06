@@ -11,7 +11,7 @@ body {
   color: #212529;
   text-align: left;
   @media (min-width: 768px) {
-    background-image: url("/idiomy/assets/img/bienvenida.jpg");
+    background-image: url("/assets/img/bienvenida.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -24,7 +24,7 @@ body {
 
 @font-face{
   font-family: "KidsZone";
-  src: url("/idiomy/assets/css/Kids\ Zone.woff");
+  src: url("/assets/css/Kids\ Zone.woff");
 }
 
 #container {
@@ -160,7 +160,7 @@ body {
     padding: 10px;
     width: 50px;
     height: 50px;
-    background-image: url("/idiomy/assets/img/left-arrow.svg");
+    background-image: url("/assets/img/left-arrow.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: transparent;
@@ -178,7 +178,7 @@ body {
     padding: 10px;
     width: 50px;
     height: 50px;
-    background-image: url("/idiomy/assets/img/left-arrow.svg");
+    background-image: url("/assets/img/left-arrow.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: transparent;
@@ -216,7 +216,7 @@ body {
   padding: 10px;
   width: 75px;
   height: 75px;
-  background-image: url("/idiomy/assets/img/right-arrow.svg");
+  background-image: url("/assets/img/right-arrow.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: transparent;
@@ -232,7 +232,7 @@ body {
   padding: 10px;
   width: 45px;
   height: 45px;
-  background-image: url("/idiomy/assets/img/home.png");
+  background-image: url("/assets/img/home.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: transparent;
@@ -268,7 +268,7 @@ body {
     padding: 10px;
     width: 50px;
     height: 50px;
-    background-image: url("/idiomy/assets/img/left-arrow.svg");
+    background-image: url("/assets/img/left-arrow.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: transparent;
