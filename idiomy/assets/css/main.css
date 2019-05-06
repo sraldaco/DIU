@@ -1,4 +1,6 @@
-*, ::after, ::before {
+*,
+::after,
+::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -6,7 +8,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -16,7 +18,7 @@ body {
 
 @media (min-width: 768px) {
   body {
-    background-image: url("/assets/img/fondos/bienvenida.jpg");
+    background-image: url("./../img/fondos/bienvenida.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -29,7 +31,7 @@ body {
 
 @font-face {
   font-family: "KidsZone";
-  src: url("/assets/css/Kids Zone.woff");
+  src: url("./../css/Kids Zone.woff");
 }
 
 #container {
@@ -181,7 +183,7 @@ body {
   padding: 10px;
   width: 50px;
   height: 50px;
-  background-image: url("/assets/img/left-arrow.svg");
+  background-image: url("./../img/left-arrow.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: transparent;
@@ -192,32 +194,20 @@ body {
   text-align: left;
 }
 
-.next-button { 
-  padding: 10px;
-  width: 75px;
-  height: 75px;
-  background-image: url("/assets/img/right-arrow.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-color: transparent;
-  border: 0px;
-  float: right;
-}
-
-.next-button:hover {
-  cursor: pointer;
-}
-
 .intro {
   padding: 2em;
   background-color: #deeea9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./../img/fondos/park_2.jpg");
 }
 
 .intro .btn-back {
   padding: 10px;
   width: 50px;
   height: 50px;
-  background-image: url("/assets/img/left-arrow.svg");
+  background-image: url("./../img/left-arrow.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: transparent;
@@ -250,14 +240,30 @@ body {
   padding: 15px;
   color: #000040;
   font-size: 2em;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.next-button {
+  padding: 10px;
+  width: 75px;
+  height: 75px;
+  background-image: url("./../img/right-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: transparent;
+  border: 0px;
+  float: right;
+}
+
+.next-button:hover {
+  cursor: pointer;
 }
 
 .btn-inicio {
   padding: 10px;
   width: 45px;
   height: 45px;
-  background-image: url("/assets/img/home.png");
+  background-image: url("./../img/home.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: transparent;
@@ -283,6 +289,10 @@ body {
 }
 
 .question {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./../img/fondos/park_1.jpg");
   background-color: #efefef;
   height: auto;
   text-align: center;
@@ -296,7 +306,7 @@ body {
   padding: 10px;
   width: 50px;
   height: 50px;
-  background-image: url("/assets/img/left-arrow.svg");
+  background-image: url("./../img/left-arrow.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: transparent;
@@ -404,7 +414,7 @@ body {
   background: -webkit-gradient(left top, right top, color-stop(0%, white), color-stop(47%, #f6f6f6), color-stop(100%, #ededed));
   background: -webkit-gradient(linear, left top, right top, from(white), color-stop(47%, #f6f6f6), to(#ededed));
   background: linear-gradient(to right, white 0%, #f6f6f6 47%, #ededed 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=1);
   width: 100px;
   height: 20px;
   background-color: #efefef;
@@ -417,7 +427,7 @@ body {
 .score .score-foreground {
   background: -webkit-gradient(linear, left top, left bottom, from(#ff3019), to(#cf0404));
   background: linear-gradient(to bottom, #ff3019 0%, #cf0404 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3019', endColorstr='#cf0404', GradientType=0);
   height: 20px;
   position: absolute;
   left: 0;

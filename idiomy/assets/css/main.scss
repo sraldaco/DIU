@@ -1,42 +1,46 @@
-*, ::after, ::before {
-    box-sizing: border-box;
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }
+
 body {
   padding: 0;
-  margin:  0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: left;
+
   @media (min-width: 768px) {
-    background-image: url("/assets/img/fondos/bienvenida.jpg");
+    background-image: url("./../img/fondos/bienvenida.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
   }
 }
 
-#bandera-alemania{
+#bandera-alemania {
   height: 6em;
   float: right;
 }
 
-@font-face{
+@font-face {
   font-family: "KidsZone";
-  src: url("/assets/css/Kids\ Zone.woff");
+  src: url("./../css/Kids\ Zone.woff");
 }
 
 #container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding:0;
+  padding: 0;
   text-align: center;
 }
 
 .fluid-img {
-  max-width:100%;
+  max-width: 100%;
 }
 
 .hide {
@@ -46,29 +50,33 @@ body {
 .item-wrapper {
   padding: 30px;
   overflow: hidden;
+
   & .title {
     margin-top: 0;
   }
 }
+
 .welcome {
   font-family: 'Chewy', cursive;
   padding: 10%;
   font-size: 25px;
-  background-color:  #cdedf6;
+  background-color: #cdedf6;
   text-align: center;
   background-color: transparent;
   width: 100%;
   color: #003333;
-  h1{
+
+  h1 {
     font-family: 'KidsZone';
     font-size: 3em;
   }
-  p{
+
+  p {
     font-weight: bolder;
   }
 }
 
-#bandera{
+#bandera {
   width: 50px;
   margin-bottom: 20px;
   border: 2px solid black;
@@ -76,7 +84,7 @@ body {
 }
 
 
-.skip-intro{
+.skip-intro {
   width: 50%;
   font-size: 20px;
   padding: 15px 50px;
@@ -90,7 +98,7 @@ body {
   transition-duration: 0.5s;
 }
 
-.skip-intro:hover{
+.skip-intro:hover {
   background-color: #d84727;
   border-color: #632112;
   transition-duration: 0.3s;
@@ -104,11 +112,11 @@ body {
   font-family: 'Chewy', cursive;
 }
 
-.icon{
+.icon {
   font-size: 1.5em;
 }
 
-.title{
+.title {
   font-family: 'Denk One', sans-serif;
   background-color: #003333;
   border-radius: 999px;
@@ -118,21 +126,22 @@ body {
   letter-spacing: 10px;
 }
 
-.btn-back:hover{
+.btn-back:hover {
   cursor: pointer;
 }
 
-.grid-container{
+.grid-container {
   display: grid;
   grid-template-columns: auto auto;
 }
 
-.category{
+.category {
   background-color: transparent;
   margin: 20px;
   color: #003333;
   margin: 1em;
-  button:hover{
+
+  button:hover {
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
     animation-delay: 1s;
@@ -142,56 +151,67 @@ body {
     transition: 0.5s;
     color: black;
   }
-  .level{
+
+  .level {
     display: inline;
     background-color: #ccccff;
     border: 4px solid #003333;
     border-radius: 9999px;
     padding: 10px;
-    img{
+
+    img {
       height: 150px;
     }
   }
-} 
+}
 
-.levels{
+.levels {
   background-color: #ccccff;
-  .btn-back{
+
+  .btn-back {
     padding: 10px;
     width: 50px;
     height: 50px;
-    background-image: url("/assets/img/left-arrow.svg");
+    background-image: url("./../img/left-arrow.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: transparent;
     border: 0px;
   }
-  .boton{
+
+  .boton {
     text-align: left;
   }
 }
 
-.intro{
+.intro {
   padding: 2em;
   background-color: #deeea9;
-  .btn-back{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./../img/fondos/park_2.jpg");
+
+  .btn-back {
     padding: 10px;
     width: 50px;
     height: 50px;
-    background-image: url("/assets/img/left-arrow.svg");
+    background-image: url("./../img/left-arrow.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: transparent;
     border: 0px;
     float: left;
   }
-  .skip:hover{
+
+  .skip:hover {
     cursor: pointer;
     background-color: #cf3304;
     color: white;
     border-bottom: 3px solid #fff;
   }
-  .skip{
+
+  .skip {
     float: right;
     font-family: 'Denk One', sans-serif;
     padding: 15px;
@@ -202,21 +222,22 @@ body {
     border: #000040;
     border-radius: 999px;
   }
-  .content{
+
+  .content {
     background-color: #8daccd;
     border-radius: 10px;
     padding: 15px;
     color: #000040;
     font-size: 2em;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
 }
 
-.next-button { 
+.next-button {
   padding: 10px;
   width: 75px;
   height: 75px;
-  background-image: url("/assets/img/right-arrow.svg");
+  background-image: url("./../img/right-arrow.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: transparent;
@@ -228,18 +249,18 @@ body {
   cursor: pointer;
 }
 
-.btn-inicio{
+.btn-inicio {
   padding: 10px;
   width: 45px;
   height: 45px;
-  background-image: url("/assets/img/home.png");
+  background-image: url("./../img/home.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: transparent;
   border: 0px;
 }
 
-.testinit{
+.testinit {
   background-color: #FF0;
   color: #000040;
   font-weight: bolder;
@@ -252,23 +273,29 @@ body {
   font-family: 'Denk One', sans-serif;
 }
 
-.testinit:hover{
+.testinit:hover {
   background-color: #FFBB2F;
   cursor: pointer;
 }
 
-.question{
+.question {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./../img/fondos/park_1.jpg");
   background-color: #efefef;
   height: auto;
   text-align: center;
-  h2{
+
+  h2 {
     text-align: left;
   }
-  .btn-back{
+
+  .btn-back {
     padding: 10px;
     width: 50px;
     height: 50px;
-    background-image: url("/assets/img/left-arrow.svg");
+    background-image: url("./../img/left-arrow.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: transparent;
@@ -276,18 +303,20 @@ body {
     float: left;
   }
 
-  .picture{
+  .picture {
     width: 50%;
     margin: auto;
   }
-  .pregunta{
+
+  .pregunta {
     background-color: #8daccd;
     padding: 10px;
     text-align: center;
     font-size: 20px;
     border-radius: 10px;
   }
-  .answer-button{
+
+  .answer-button {
     background-color: #f0b67f;
     width: 50%;
     padding: 10px 15px;
@@ -298,7 +327,8 @@ body {
     font-size: 1.2em;
     font-weight: bold;
   }
-  .answer-button:hover{
+
+  .answer-button:hover {
     cursor: pointer;
     transition: 0.3s;
     background-color: #c97c5d;
@@ -307,14 +337,15 @@ body {
   }
 }
 
-.resume{
+.resume {
   background-color: #ccccff;
   text-align: center;
 }
 
-.resume .buttons{
+.resume .buttons {
   background-color: transparent;
-  #reload{
+
+  #reload {
     margin: 15px;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -322,12 +353,13 @@ body {
     border: 5px solid black;
     border-radius: 999px;
     text-align: center;
-    img{
+
+    img {
       height: 100px;
     }
   }
 
-  #reload:hover{
+  #reload:hover {
     animation: animated pulse;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -336,7 +368,7 @@ body {
 
   }
 
-  #menu{
+  #menu {
     margin: 15px;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -344,11 +376,13 @@ body {
     border: 5px solid #000;
     border-radius: 999px;
     text-align: center;
-    img{
+
+    img {
       height: 100px;
     }
   }
-  #menu:hover{
+
+  #menu:hover {
     animation: animated pulse;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -358,15 +392,15 @@ body {
   }
 }
 
-.score{
-  background: rgba(255,255,255,1);
-  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
-  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+.score {
+  background: rgba(255, 255, 255, 1);
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=1);
 
   width: 100px;
   height: 20px;
@@ -378,10 +412,10 @@ body {
 
   .score-foreground {
     background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
-    background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
-    background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
-  
+    background: -webkit-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+    background: linear-gradient(to bottom, #ff3019 0%, #cf0404 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3019', endColorstr='#cf0404', GradientType=0);
+
     height: 20px;
     position: absolute;
     left: 0;
@@ -389,12 +423,21 @@ body {
     bottom: 0;
     border-radius: 5px;
   }
-  .score-33 {right:67px;}
-  .score-67 {right:33px;}
-  .score-100 {right:0;}
+
+  .score-33 {
+    right: 67px;
+  }
+
+  .score-67 {
+    right: 33px;
+  }
+
+  .score-100 {
+    right: 0;
+  }
 }
 
-.next-intro{
+.next-intro {
   padding: 15px;
   font-weight: 600;
   font-size: 1.2em;
@@ -405,7 +448,7 @@ body {
   margin-top: 10px;
 }
 
-.next-intro:hover{
+.next-intro:hover {
   cursor: pointer;
   background-color: #87CEEB;
   border-bottom: 3px solid #000040;
@@ -419,3 +462,4 @@ body {
   font-size: 2em;
   letter-spacing: 2px;
 }
+

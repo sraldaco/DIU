@@ -1,4 +1,3 @@
-
 <script id="quiz" type="text/x-jsrender">
   <div id="quiz-data" data-category="{{:category}}" data-quiz="{{:id}}">
     <div id="intro">
@@ -17,7 +16,7 @@
       </div>
       {{/for}}
     </div>
-    <div id="items" class="quiz items hide"></div>
+    <div id="items" class="quiz category-{{:category}} test-{{:id}} items hide"></div>
     <div class="can item-wrapper animated hide">
       <div id="message">Mensaje</div>
       <img src="assets/img/perro.png" alt="mensaje" class="fluid-img">
@@ -31,14 +30,12 @@
       <div class="stars"></div>
       <div class="buttons">
         <button id="reload" class="buton-resume again animated pulse" title="Repetir preguntas">
-          <img src="/assets/img/update-arrow.svg">
+          <img src="assets/img/update-arrow.svg">
         </button>
         <button id="menu" class="buton-resume home animated pulse" title="Ir a Home">
-          <img src="/assets/img/home.png">
+          <img src="assets/img/home.png">
         </button>
       </div>
     </div>
   </div>
 </script>
-
-
