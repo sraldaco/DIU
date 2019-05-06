@@ -192,6 +192,22 @@ body {
   text-align: left;
 }
 
+.next-button { 
+  padding: 10px;
+  width: 75px;
+  height: 75px;
+  background-image: url("/idiomy/assets/img/right-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: transparent;
+  border: 0px;
+  float: right;
+}
+
+.next-button:hover {
+  cursor: pointer;
+}
+
 .intro {
   padding: 2em;
   background-color: #deeea9;
