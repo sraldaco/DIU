@@ -213,9 +213,9 @@
         "quiz" : [
           {"id" : 1, "title" : "Nivel 1",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/animales/dog.png", "text": "El mejor amigo del hombre es el perro (hund)"},
-              {"id": 2, "img": "assets/img/categorias/animales/cat.png", "text": "El gato (katze) se limpia a si mismo"},
-              {"id": 3, "img": "assets/img/categorias/animales/pig.png", "text": "El cerdito (schwein) es un animal muy amigable"}
+              {"id": 1, "img": "assets/img/categorias/animales/dog.png", "text": "En alemán, el perro se dice hund"},
+              {"id": 2, "img": "assets/img/categorias/animales/cat.png", "text": "En alemán, el gato se dice katze"},
+              {"id": 3, "img": "assets/img/categorias/animales/pig.png", "text": "En alemán, el cerdito se dice schwein"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿Qué animal es?",
@@ -227,7 +227,7 @@
                 ],
                 "correct" : 2
               },
-              {"id" : 2, "question" : "¿Y este, qué animal crees que sea?",
+              {"id" : 2, "question" : "¿Qué animal crees que sea?",
                 "imgurl" : "assets/img/categorias/animales/cat.png",
                 "answers" : [
                   {"id" : 1, "answer" : "Katze"},
@@ -249,12 +249,12 @@
           },
           {"id" : 2, "title" : "Nivel 2",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/animales/lion.png", "text": "El rey es el león (Löwe)"},
-              {"id": 2, "img": "assets/img/categorias/animales/giraffe.png", "text": "La jirafa (giraffe) puede alcanzar 15 metros de altura"},
-              {"id": 3, "img": "assets/img/categorias/animales/wolf.png", "text": "El lobo (wolfe) es muy feroz"}
+              {"id": 1, "img": "assets/img/categorias/animales/lion.png", "text": "En alemán, el león se dice löwe"},
+              {"id": 2, "img": "assets/img/categorias/animales/giraffe.png", "text": "En alemán, la jirafa se dice giraffe"},
+              {"id": 3, "img": "assets/img/categorias/animales/wolf.png", "text": "En alemán, el lobo se dice wolfe"}
             ],
             "questions" : [
-              {"id" : 1, "question" : "¿Cuál crees que sea el animal?",
+              {"id" : 1, "question" : "¿Cuál crees que sea el primer animal?",
                 "imgurl" : "assets/img/categorias/animales/lion.png",
                 "answers" : [
                   {"id" : 1, "answer" : "Bär"},
@@ -263,7 +263,7 @@
                 ],
                 "correct" : 3
               },
-              {"id" : 2, "question" : "¿Cuál es su nombre en alemán?",
+              {"id" : 2, "question" : "¿Cómo se dirá este animar?",
                 "imgurl" : "assets/img/categorias/animales/giraffe.png",
                 "answers" : [
                   {"id" : 1, "answer" : "Affe"},
@@ -272,7 +272,7 @@
                 ],
                 "correct" : 3
               },
-              {"id" : 3, "question" : "¿Qué animal crees que sea?",
+              {"id" : 3, "question" : "Ya estás cerca de acabar, ¿Qué animal es el siguiente?",
                 "imgurl" : "assets/img/categorias/animales/wolf.png",
                 "answers" : [
                   {"id" : 1, "answer" : "Löwe"},
@@ -285,9 +285,9 @@
           },
           {"id" : 3, "title" : "Nivel 3",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/animales/monkey.png", "text": "Al mono (affe) le gusta trepar los árboles"},
-              {"id": 2, "img": "assets/img/categorias/animales/duck.png", "text": "El pato (ente) es muy pacífico"},
-              {"id": 3, "img": "assets/img/categorias/animales/owl.png", "text": "El búho (owl) es nocturno"}
+              {"id": 1, "img": "assets/img/categorias/animales/monkey.png", "text": "En alemán, el mono se dice affe"},
+              {"id": 2, "img": "assets/img/categorias/animales/duck.png", "text": "En alemán, el pato se dice ente"},
+              {"id": 3, "img": "assets/img/categorias/animales/owl.png", "text": "En alemán, el búho se dice owl"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿Cómo se dirá este animal?",
@@ -299,7 +299,7 @@
                 ],
                 "correct" : 1
               },
-              {"id" : 2, "question" : "¿Cuál será esté simpático animal?",
+              {"id" : 2, "question" : "¿Cuál será este simpático animal?",
                 "imgurl" : "assets/img/categorias/animales/duck.png",
                 "answers" : [
                   {"id" : 1, "answer" : "Ente"},
@@ -308,14 +308,14 @@
                 ],
                 "correct" : 1
               },
-              {"id" : 3, "question" : "¿Y quién será esta famosa ave?",
+              {"id" : 3, "question" : "Ya estás cerca de acabar, ¿Qué animal es el siguiente?",
                 "imgurl" : "assets/img/categorias/animales/owl.png",
                 "answers" : [
                   {"id" : 1, "answer" : "Ente"},
-                  {"id" : 2, "answer" : "Affe"},
+                  {"id" : 2, "answer" : "Owl"},
                   {"id" : 3, "answer" : "Eule"}
                 ],
-                "correct" : 3
+                "correct" : 2
               }
             ]
           }
@@ -328,9 +328,9 @@
         "quiz" : [
           {"id" : 1, "title" : "Nivel 1",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/comida/apple.png", "text": "La manzana (apfel) es muy jugosa"},
-              {"id": 2, "img": "assets/img/categorias/comida/orange.png", "text": "En el desayuno tomamos jugo de naranja (orange)"},
-              {"id": 3, "img": "assets/img/categorias/comida/lemon.png", "text": "Los tacos saben más ricos con limón (zitrone)"}
+              {"id": 1, "img": "assets/img/categorias/comida/apple.png", "text": "En Alemania, la manzana se dice apfel"},
+              {"id": 2, "img": "assets/img/categorias/comida/orange.png", "text": "En Alemania, la naranja se dice orange"},
+              {"id": 3, "img": "assets/img/categorias/comida/lemon.png", "text": "En Alemania, el limón se dice zitrone"}
             ],
             "questions" : [
               {"id" : 1, "question" : "Una fruta muy conocida, ¿Cómo se dirá?",
@@ -351,7 +351,7 @@
                 ],
                 "correct" : 2
               },
-              {"id" : 3, "question" : "El limón es un cítrico, ¿Sabes cómo se llama?",
+              {"id" : 3, "question" : "Ya estás cerca de acabar, ¿Qué fruta es la siguiente?",
                 "imgurl" : "assets/img/categorias/comida/lemon.png",
                 "answers" : [
                   {"id" : 1, "answer" : "Zitrone"},
@@ -364,12 +364,12 @@
           },
           {"id" : 2, "title" : "Nivel 2",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/comida/carrot.png", "text": "Dicen que la zanahoria (karotte) mejora la vista"},
-              {"id": 2, "img": "assets/img/categorias/comida/pineapple.png", "text": "Piña (ananas) para la niña"},
-              {"id": 3, "img": "assets/img/categorias/comida/cheese.png", "text": "La Luna es de queso (käse)"}
+              {"id": 1, "img": "assets/img/categorias/comida/carrot.png", "text": "En Alemania, la zanahoria se dice karotte"},
+              {"id": 2, "img": "assets/img/categorias/comida/pineapple.png", "text": "En Alemania, la piña se dice ananas"},
+              {"id": 3, "img": "assets/img/categorias/comida/cheese.png", "text": "En Alemania, el queso se dice käse"}
             ],
             "questions" : [
-              {"id" : 1, "question" : "La comida favorita de los conejos se dice...",
+              {"id" : 1, "question" : "¿Cómo se dirá la siguiente verdura?",
                 "imgurl" : "assets/img/categorias/comida/carrot.png",
                 "answers" : [
                   {"id" : 1, "answer" : "Traube"},
@@ -378,7 +378,7 @@
                 ],
                 "correct" : 3
               },
-              {"id" : 2, "question" : "En alemán, ¿Cómo se dice la piña?",
+              {"id" : 2, "question" : "¿Cómo se llama el siguiente alimento?",
                 "imgurl" : "assets/img/categorias/comida/pineapple.png",
                 "answers" : [
                   {"id" : 1, "answer" : "Traube"},
@@ -387,7 +387,7 @@
                 ],
                 "correct" : 3
               },
-              {"id" : 3, "question" : "El alimento predilecto de los ratones se dice..",
+              {"id" : 3, "question" : "Ya estás cerca de acabar, ¿Qué bebida es la siguiente?",
                 "imgurl" : "assets/img/categorias/comida/cheese.png",
                 "answers" : [
                   {"id" : 1, "answer" : "Käse"},
@@ -400,9 +400,9 @@
           },
           {"id" : 3, "title" : "Nivel 3",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/comida/milk.png", "text": "La leche (milch) es nutritiva"},
-              {"id": 2, "img": "assets/img/categorias/comida/fish.png", "text": "En la playa se come pescado (fisch)"},
-              {"id": 3, "img": "assets/img/categorias/comida/cake.png", "text": "No hay mejor postre que un buen pastel (kuchen)"}
+              {"id": 1, "img": "assets/img/categorias/comida/milk.png", "text": "En Alemania, la leche se dice milch"},
+              {"id": 2, "img": "assets/img/categorias/comida/fish.png", "text": "En Alemania, el pescado se dice fisch"},
+              {"id": 3, "img": "assets/img/categorias/comida/cake.png", "text": "En Alemania, el pastel se dice kuchen"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿Cómo se dice leche?",
@@ -414,7 +414,7 @@
                 ],
                 "correct" : 2
               },
-              {"id" : 2, "question" : "¿El pescado?",
+              {"id" : 2, "question" : "¿Y cómo se dice el pescado?",
                 "imgurl" : "assets/img/categorias/comida/fish.png",
                 "answers" : [
                   {"id" : 1, "answer" : "Fleisch"},
@@ -423,7 +423,7 @@
                 ],
                 "correct" : 3
               },
-              {"id" : 3, "question" : "Podrás comer un pastel si sabes como se dice en alemán...",
+              {"id" : 3, "question" : "Ya estás cerca de acabar, ¿Qué postre es el siguiente?",
                 "imgurl" : "assets/img/categorias/comida/cake.png",
                 "answers" : [
                   {"id" : 1, "answer" : "Schokolade"},
