@@ -226,6 +226,7 @@ body {
 }
 
 .intro .skip:hover {
+  cursor: pointer;
   background-color: #cf3304;
   color: white;
   border-bottom: 3px solid #fff;
