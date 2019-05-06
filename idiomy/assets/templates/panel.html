@@ -4,14 +4,17 @@
     <div>
       <img id="bandera-alemania" src="/idiomy/assets/img/bandera-germany.png"/>
     </div>
-    {{for items itemVar='~item'}}
-      <div class="category animated {{if (#index+1) % 2 == 0}} bounceInLeft {{else}} bounceInRight {{/if}}">
+    <div class="grid-container">
+      {{for items itemVar='~item'}}
+
+      <div class="grid-item category animated {{if (#index+1) % 2 == 0}} bounceInLeft {{else}} bounceInRight {{/if}}">
         <h3 class="icon">{{:~item.title}}</h3>
         <button class="level animated pulse" data-category={{:~item.id}}>
-            <img src="{{:~item.img}}"/>
+          <img src="{{:~item.img}}"/>
         </button>        
-        </div>
-      <br>
-    {{/for}}
+      </div>
+      
+      {{/for}}
+    </div>
   </div>
 </script>

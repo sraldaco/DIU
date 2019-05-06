@@ -2,8 +2,10 @@
 
     <div class="levels item-wrapper animated fadeIn">
       <h2 class="title">Niveles - {{:title}}</h2>
-      <button id="menu" class="btn-back" title="Volver a Home">
-      </button>
+      <div class="boton">
+        <button id="menu" class="btn-back" title="Volver a Home">
+        </button>
+      </div>
       {{for quiz}}
       <div class="quiz-panel">
         <button class="testinit" data-category="{{:#parent.parent.data.id}}" data-quiz="{{:id}}">

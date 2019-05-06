@@ -32,6 +32,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding:0;
+  text-align: center;
 }
 
 .fluid-img {
@@ -121,11 +122,16 @@ body {
   cursor: pointer;
 }
 
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 .category{
   background-color: transparent;
   margin: 20px;
   color: #003333;
-  text-align: center;
+  margin: 1em;
   button:hover{
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
@@ -160,10 +166,14 @@ body {
     background-color: transparent;
     border: 0px;
   }
+  .boton{
+    text-align: left;
+  }
 }
 
-.introducciones{
-  background-color: #c1ce97;
+.intro{
+  padding: 2em;
+  background-color: #deeea9;
   .btn-back{
     padding: 10px;
     width: 50px;
@@ -173,6 +183,31 @@ body {
     background-size: 100%;
     background-color: transparent;
     border: 0px;
+    float: left;
+  }
+  .skip:hover{
+    background-color: #cf3304;
+    color: white;
+    border-bottom: 3px solid #fff;
+  }
+  .skip{
+    float: right;
+    font-family: 'Denk One', sans-serif;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #000040;
+    background-color: #FEBF01;
+    border: #000040;
+    border-radius: 999px;
+  }
+  .content{
+    background-color: #8daccd;
+    border-radius: 10px;
+    padding: 15px;
+    color: #000040;
+    font-size: 2em;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   }
 }
 
@@ -191,7 +226,6 @@ body {
 
 .testinit{
   background-color: #FF0;
-  background-color: #FF0;
   color: #000040;
   font-weight: bolder;
   font-size: 1em;
@@ -200,6 +234,7 @@ body {
   border: 2px solid #000040;
   border-radius: 5px;
   margin: 10px;
+  font-family: 'Denk One', sans-serif;
 }
 
 .testinit:hover{
@@ -243,7 +278,7 @@ body {
     padding: 10px 15px;
     border: 0px;
     border-bottom: 4px solid #c97c5d;
-    border-radius: 10px;
+    border-radius: 999px;
     margin: 15px;
     font-size: 1.2em;
     font-weight: bold;
@@ -317,40 +352,45 @@ body {
   background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
   background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
-  
+
   width: 100px;
-  height: 15px;
+  height: 20px;
+  background-color: #efefef;
   display: inline-block;
-  margin-left: 15px;
   padding: 0;
   position: relative;
+  border-radius: 5px;
 
   .score-foreground {
     background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
     background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
     background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
-    
-    height: 15px;
+  
+    height: 20px;
     position: absolute;
-    left: 0; top: 0; bottom: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
   }
   .score-33 {right:67px;}
   .score-67 {right:33px;}
   .score-100 {right:0;}
 }
 
-.skip, .next-intro{
-  width: 120px;
-  padding: 10px;
+.next-intro{
+  padding: 15px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.2em;
   color: #000040;
   background-color: #FEBF01;
   border: #000040;
-  border-radius: 5px;
+  border-radius: 999px;
+  margin-top: 10px;
 }
-.skip:hover, .next-intro:hover{
+.next-intro:hover{
   cursor: pointer;
   background-color: #87CEEB;
+  border-bottom: 3px solid #000040;
 }

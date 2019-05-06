@@ -4,14 +4,19 @@
     <div id="intro">
       {{for intro}}
       <div class="intro item {{if id != 1}}hide {{else}} fadeInUp {{/if}}">
+          <h2 class="title">Intro {{:id}}</h2>
+          <div class="boton">
+              <button id="menu" class="btn-back" title="Volver a Home">
+              </button>
+              <button class="skip">Omitir Intros</button>
+            </div>
           <img src="{{:img}}" class="fluid-img">
           <div class="content">
             {{:text}}
           </div>
-          <button class="next-intro" data-target="{{:id}}">Next intro</button>
+          <button class="next-intro" data-target="{{:id}}">Siguiente Intro</button>
       </div>
       {{/for}}
-      <button class="skip">Skip</button>
     </div>
     <div id="items" class="quiz items hide"></div>
     <div class="can item-wrapper animated hide">

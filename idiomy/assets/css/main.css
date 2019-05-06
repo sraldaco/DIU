@@ -37,6 +37,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0;
+  text-align: center;
 }
 
 .fluid-img {
@@ -127,15 +128,22 @@ body {
   letter-spacing: 10px;
 }
 
-.btn-back:hover{
+.btn-back:hover {
   cursor: pointer;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
 }
 
 .category {
   background-color: transparent;
   margin: 20px;
   color: #003333;
-  text-align: center;
+  margin: 1em;
 }
 
 .category button:hover {
@@ -180,11 +188,16 @@ body {
   border: 0px;
 }
 
-.introducciones {
-  background-color: #c1ce97;
+.levels .boton {
+  text-align: left;
 }
 
-.introducciones .btn-back {
+.intro {
+  padding: 2em;
+  background-color: #deeea9;
+}
+
+.intro .btn-back {
   padding: 10px;
   width: 50px;
   height: 50px;
@@ -193,6 +206,34 @@ body {
   background-size: 100%;
   background-color: transparent;
   border: 0px;
+  float: left;
+}
+
+.intro .skip:hover {
+  background-color: #cf3304;
+  color: white;
+  border-bottom: 3px solid #fff;
+}
+
+.intro .skip {
+  float: right;
+  font-family: 'Denk One', sans-serif;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #000040;
+  background-color: #FEBF01;
+  border: #000040;
+  border-radius: 999px;
+}
+
+.intro .content {
+  background-color: #8daccd;
+  border-radius: 10px;
+  padding: 15px;
+  color: #000040;
+  font-size: 2em;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
 .btn-inicio {
@@ -216,9 +257,10 @@ body {
   border: 2px solid #000040;
   border-radius: 5px;
   margin: 10px;
+  font-family: 'Denk One', sans-serif;
 }
 
-.testinit:hover{
+.testinit:hover {
   background-color: #FFBB2F;
   cursor: pointer;
 }
@@ -264,15 +306,15 @@ body {
   padding: 10px 15px;
   border: 0px;
   border-bottom: 4px solid #c97c5d;
-  border-radius: 10px;
+  border-radius: 999px;
   margin: 15px;
   font-size: 1.2em;
   font-weight: bold;
 }
 
 .question .answer-button:hover {
-  -webkit-transition: 0.3s;
   cursor: pointer;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
   background-color: #c97c5d;
   border-color: #a44a3f;
@@ -341,15 +383,11 @@ body {
 }
 
 .score {
-  background: rgba(255,255,255,1);
-  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
-  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: white;
+  background: -webkit-gradient(left top, right top, color-stop(0%, white), color-stop(47%, #f6f6f6), color-stop(100%, #ededed));
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(47%, #f6f6f6), to(#ededed));
+  background: linear-gradient(to right, white 0%, #f6f6f6 47%, #ededed 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
-
   width: 100px;
   height: 20px;
   background-color: #efefef;
@@ -360,11 +398,9 @@ body {
 }
 
 .score .score-foreground {
-  background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
-  background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
-  background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff3019), to(#cf0404));
+  background: linear-gradient(to bottom, #ff3019 0%, #cf0404 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
-
   height: 20px;
   position: absolute;
   left: 0;
@@ -384,19 +420,21 @@ body {
 .score .score-100 {
   right: 0;
 }
-/*# sourceMappingURL=main.css.map */
 
-.skip, .next-intro{
-  width: 120px;
-  padding: 10px;
+.next-intro {
+  padding: 15px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.2em;
   color: #000040;
   background-color: #FEBF01;
   border: #000040;
-  border-radius: 5px;
+  border-radius: 999px;
+  margin-top: 10px;
 }
-.skip:hover, .next-intro:hover{
+
+.next-intro:hover {
   cursor: pointer;
   background-color: #87CEEB;
+  border-bottom: 3px solid #000040;
 }
+/*# sourceMappingURL=main.css.map */
