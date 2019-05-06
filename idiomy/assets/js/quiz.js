@@ -30,11 +30,14 @@ function showNext(n) {
       points += answers[answer].points;
     }
     $('.resume').removeClass('hide').addClass('fadeInUp');
-    //var result = points + " of " + items.length;
-    //$('.result').html(points);
-    var i;
-    for(i = 0; i < points; i++){
-      $('.stars').prepend($('<img>',{id:'star',src:'/assets/img/star-03.png', width: '50px', height: '50px'}))
+
+    if(points < 1){
+      $('.stars').html("No obtuviste ninguna estrella. Inténtalo de nuevo! ");
+      $('.stars').append($('<img>',{id:'star',src:'/assets/img/result/happy_face.png', width: '50px', height: '50px'}))
+    }else{
+      for(var i = 0; i < points; i++){
+        $('.stars').append($('<img>',{id:'star',src:'/assets/img/result/star.png', width: '50px', height: '50px'}))
+      }
     }
   } else {
     $(items[current]).addClass('fadeInUp').removeClass('hide');
@@ -42,6 +45,7 @@ function showNext(n) {
 }
 
 $('#container').on('click','#reload', function(){
+  //$('.stars').remove('.star');
   current = - 1;
   showNext(current);
 });
