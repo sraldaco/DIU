@@ -33,10 +33,10 @@ function showNext(n) {
 
     if(points < 1){
       $('.stars').html("No obtuviste ninguna estrella. Inténtalo de nuevo! ");
-      $('.stars').append($('<img>',{id:'star',src:'/assets/img/result/happy_face.png', width: '50px', height: '50px'}))
+      $('.stars').append($('<img>',{id:'star',src:'/assets/img/resultado_quiz/happy_face.png', width: '50px', height: '50px'}))
     }else{
       for(var i = 0; i < points; i++){
-        $('.stars').append($('<img>',{id:'star',src:'/assets/img/result/star.png', width: '50px', height: '50px'}))
+        $('.stars').append($('<img>',{id:'star',src:'/assets/img/resultado_quiz/star.png', width: '50px', height: '50px'}))
       }
     }
   } else {
@@ -45,7 +45,7 @@ function showNext(n) {
 }
 
 $('#container').on('click','#reload', function(){
-  //$('.stars').remove('.star');
+  //$('.stars').remove();
   current = - 1;
   showNext(current);
 });
