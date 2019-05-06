@@ -30,8 +30,12 @@ function showNext(n) {
       points += answers[answer].points;
     }
     $('.resume').removeClass('hide').addClass('fadeInUp');
-    var result = points + " of " + items.length;
-    $('.result').html(result);
+    //var result = points + " of " + items.length;
+    //$('.result').html(points);
+    var i;
+    for(i = 0; i < points; i++){
+      $('.stars').prepend($('<img>',{id:'star',src:'/assets/img/star-03.png', width: '50px', height: '50px'}))
+    }
   } else {
     $(items[current]).addClass('fadeInUp').removeClass('hide');
   }
