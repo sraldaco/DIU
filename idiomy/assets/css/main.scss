@@ -99,8 +99,10 @@ body {
 }
 
 .skip-intro:hover {
-  background-color: #d84727;
-  border-color: #632112;
+  width: 55%;
+  font-size: 25px;
+  background-color: #000040;
+  border-bottom-color: #030317;
   transition-duration: 0.3s;
   color: #FFF;
   cursor: pointer;
@@ -204,23 +206,44 @@ body {
     float: left;
   }
 
-  .skip:hover {
-    cursor: pointer;
-    background-color: #cf3304;
-    color: white;
-    border-bottom: 3px solid #fff;
-  }
-
   .skip {
     float: right;
     font-family: 'Denk One', sans-serif;
     padding: 15px;
     font-weight: 600;
     font-size: 1.2em;
+    color: #003333;
+    background-color: #FF9505;
+    border: #ff9505;
+    border-radius: 999px;
+  }
+
+  .skip:hover {
+    cursor: pointer;
     color: #000040;
     background-color: #FEBF01;
-    border: #000040;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+  }
+
+  .next-intro {
+    font-family: 'Denk One', sans-serif;
+    margin-top: 15px;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #003333;
+    background-color: #FF9505;
+    border: #ff9505;
     border-radius: 999px;
+  }
+
+  .next-intro:hover {
+    cursor: pointer;
+    color: #000040;
+    background-color: #FEBF01;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
   }
 
   .content {
@@ -261,20 +284,24 @@ body {
 }
 
 .testinit {
-  background-color: #FF0;
-  color: #000040;
+  background-color: #003333;
+  color: #ff9505;
   font-weight: bolder;
   font-size: 1em;
   width: 200px;
   padding: 5px 10px;
-  border: 2px solid #000040;
+  border: 2px solid #093B48;
   border-radius: 5px;
   margin: 10px;
   font-family: 'Denk One', sans-serif;
 }
 
 .testinit:hover {
+  color: #000040;
   background-color: #FFBB2F;
+  border-color: rgb(247, 172, 23);
+  width: 205px;
+  font-size: 20px;
   cursor: pointer;
 }
 
