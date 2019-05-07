@@ -197,7 +197,7 @@
                 "imgurl" : "assets/img/categorias/colores/cherry-blossom.png",
                 "answers" : [
                   {"id" : 1, "answer" : "rosa"},
-                  {"id" : 2, "answer" : "rot"},
+                  {"id" : 2, "answer" : "blau"},
                   {"id" : 3, "answer" : "weiß"}
                 ],
                 "correct" : 1

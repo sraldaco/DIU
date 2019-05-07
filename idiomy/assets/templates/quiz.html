@@ -2,6 +2,7 @@
   <div id="quiz-data" data-category="{{:category}}" data-quiz="{{:id}}">
     <div id="intro">
       {{for intro}}
+
       <div class="intro item {{if id != 1}}hide {{else}} fadeInUp {{/if}}">
           <h2 class="title">Intro {{:id}}</h2>
           <div class="boton">
@@ -16,6 +17,7 @@
       </div>
       {{/for}}
     </div>
+    
     <div id="items" class="quiz category-{{:category}} test-{{:id}} items hide"></div>
     <div class="can item-wrapper animated hide">
       <div id="message">Mensaje</div>
@@ -24,6 +26,7 @@
           <button class="next-button" title="Siguiente pregunta"></button>
         </div>
     </div>
+    
     <div class="resume item-wrapper animated hide">
       <h2 class="title">Resumen</h2>
       <h1>{{:title}}</h1>

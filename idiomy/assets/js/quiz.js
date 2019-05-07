@@ -3,10 +3,10 @@ $('#container').on('click', '.answer-button', function(){
   var isCorrect = $(this).checkAnswer();
   var msg = "fail";
   if (isCorrect) {
-    msg = "OK";
+    msg = "¡ Excelente !";
   }
   $('#message').html(msg);
-  $('.fadeInUp').addClass('hide').removeClass('fadeInUp');
+  //$('.fadeInUp').addClass('hide').removeClass('fadeInUp');
   $('.can').removeClass('hide').addClass('fadeInUp');
 });
 
@@ -35,21 +35,21 @@ function showNext(n) {
       $('.result-message').html("No obtuviste ninguna estrella. Inténtalo de nuevo! ");
       $('.result-message').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/happy_face.png', width: '50px', height: '50px'}))
     }else if (points === 1){
-      $('.result-message').html("Puedes mejorar. Inténtalo de nuevo! ");
+      $('.result-message').html("Puedes mejorar. ¡Inténtalo de nuevo! ");
       $('.result-message').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/think_face.png', width: '50px', height: '50px'}))
-      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '50px', height: '50px'}))
+      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '150px', height: '150px'}))
     }else if (points === 2){
-      $('.result-message').html("Muy bien! ");
+      $('.result-message').html("¡Muy bien! ");
       $('.result-message').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/tongue_face.png', width: '50px', height: '50px'}))
-      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '50px', height: '50px'}))
-      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '50px', height: '50px'}))
+      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '150px', height: '150px'}))
+      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '150px', height: '150px'}))
     }else if (points === 3){
-      $('.result-message').html("Felicidades! Demuestra tus habilidades en los demás niveles y categorías.<br>");
+      $('.result-message').html("¡Felicidades! Demuestra tus habilidades en los demás niveles y categorías.<br>");
       $('.result-message').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/celebration.png', width: '50px', height: '50px'}))
       $('.result-message').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/happy_face.png', width: '50px', height: '50px'}))
-      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '50px', height: '50px'}))
-      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '50px', height: '50px'}))
-      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '50px', height: '50px'}))
+      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '150px', height: '150px'}))
+      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '150px', height: '150px'}))
+      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '150px', height: '150px'}))
     }
   } else {
     $(items[current]).addClass('fadeInUp').removeClass('hide');
