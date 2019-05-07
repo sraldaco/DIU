@@ -31,13 +31,25 @@ function showNext(n) {
     }
     $('.resume').removeClass('hide').addClass('fadeInUp');
 
-    if(points < 1){
-      $('.stars').html("No obtuviste ninguna estrella. Inténtalo de nuevo! ");
-      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/happy_face.png', width: '50px', height: '50px'}))
-    }else{
-      for(var i = 0; i < points; i++){
-        $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '50px', height: '50px'}))
-      }
+    if(points === 0){
+      $('.result-message').html("No obtuviste ninguna estrella. Inténtalo de nuevo! ");
+      $('.result-message').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/happy_face.png', width: '50px', height: '50px'}))
+    }else if (points === 1){
+      $('.result-message').html("Puedes mejorar. Inténtalo de nuevo! ");
+      $('.result-message').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/think_face.png', width: '50px', height: '50px'}))
+      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '50px', height: '50px'}))
+    }else if (points === 2){
+      $('.result-message').html("Muy bien! ");
+      $('.result-message').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/tongue_face.png', width: '50px', height: '50px'}))
+      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '50px', height: '50px'}))
+      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '50px', height: '50px'}))
+    }else if (points === 3){
+      $('.result-message').html("Felicidades! Demuestra tus habilidades en los demás niveles y categorías.<br>");
+      $('.result-message').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/celebration.png', width: '50px', height: '50px'}))
+      $('.result-message').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/happy_face.png', width: '50px', height: '50px'}))
+      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '50px', height: '50px'}))
+      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '50px', height: '50px'}))
+      $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '50px', height: '50px'}))
     }
   } else {
     $(items[current]).addClass('fadeInUp').removeClass('hide');
