@@ -57,7 +57,7 @@ function showNext(n) {
 }
 
 $('#container').on('click','#reload', function(){
-  //$('.stars').remove();
+  $('.stars').empty();
   current = - 1;
   showNext(current);
 });
