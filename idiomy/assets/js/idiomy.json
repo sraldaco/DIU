@@ -60,7 +60,6 @@
                 ],
                 "correct" : 3
               },
-              
               {"id" : 2, "question" : "¿De qué color son las hojas del árbol?",
                 "imgurl" : "assets/img/categorias/colores/trees-green.png",
                 "answers" : [
@@ -69,9 +68,7 @@
                   {"id" : 3, "answer" : "braun"}
                 ],
                 "correct" : 1
-              },
-            
-              
+              },              
               {"id" : 3, "question" : "¿De qué color es el carro?",
                 "imgurl" : "assets/img/categorias/colores/car-blue.png",
                 "answers" : [
@@ -108,7 +105,6 @@
                 ],
                 "correct" : 2
               }
-          
             ]
           },
           {"id" : 3, "title" : "Nivel 3",
@@ -118,7 +114,6 @@
               {"id": 3, "img": "assets/img/categorias/colores/pig.png", "text": "El puerquito es rosa (rosa)"}
             ],
             "questions" : [
-
               {"id" : 1, "question" : "¿De qué color es la rebanada de naranja?",
                 "imgurl" : "assets/img/categorias/colores/orange-slice.png",
                 "answers" : [
@@ -137,7 +132,6 @@
                 ],
                 "correct" : 1
               },
-
               {"id" : 3, "question" : "¿De qué color es la nave espacial?",
                 "imgurl" : "assets/img/categorias/colores/rocket-ship--white2.png",
                 "answers" : [
@@ -165,7 +159,6 @@
                 ],
                 "correct" : 3
               },
-
               {"id" : 6, "question" : "¿De qué color es el búho?",
                 "imgurl" : "assets/img/categorias/colores/owl2.png",
                 "answers" : [
@@ -468,8 +461,6 @@
                 ],
                 "correct" : 2
               },
-              
-              
               {"id" : 3, "question" : "¿Cómo se llama esta fruta?",
                 "imgurl" : "assets/img/categorias/comida/orange.png",
                 "answers" : [
@@ -479,7 +470,6 @@
                 ],
                 "correct" : 2
               },
-              
               {"id" : 4, "question" : "¿Cómo se llama el siguiente alimento?",
                 "imgurl" : "assets/img/categorias/comida/pineapple.png",
                 "answers" : [
@@ -543,7 +533,6 @@
                 ],
                 "correct" : 2
               },
-              
               {"id" : 4, "question" : "¿Y cómo se dice el pescado?",
                 "imgurl" : "assets/img/categorias/comida/fish.png",
                 "answers" : [

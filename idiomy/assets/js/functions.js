@@ -102,24 +102,24 @@ $.fn.scoreResume = function(element) {
 function generateScoreRegistry(){
   score = {};
   categories.items.forEach(function(category){
-    score["category"+category.id] = getQuizes(category);
+    score["category"+category.id] = getQuizes(category.quiz);
   });
-  localStorage.setItem("score",JSON.stringify(score));
   console.log(score);
+  localStorage.setItem("score",JSON.stringify(score));
 }
 
 function getQuizes(category) {
   quizes = {};
-  category.quiz.forEach(function(quiz){
-    quizes["quiz"+quiz.id] = getQuestion(category.quiz);
+  category.forEach(function(quiz){
+    quizes["quiz"+quiz.id] = getQuestion(quiz.questions);
   });
   return quizes;
 }
 
 function getQuestion(quiz) {
   questions = {};
-  quiz.forEach(function(question){
-    questions["question"+question.id] = {"points" : 0};
+  quiz.forEach(function(element){
+    questions["question"+element.id] = {"points" : 0};
   });
   return questions;
 }
