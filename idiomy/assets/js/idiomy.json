@@ -10,9 +10,9 @@
         "quiz" : [
           {"id" : 1, "title" : "Nivel 1",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/colores/orange-slice.png", "text": "La rebanada de naranja es naranja (orange)"},
-              {"id": 2, "img": "assets/img/categorias/colores/trees-green.png", "text": "Las hojas del árbol son verdes (grün)"},
-              {"id": 3, "img": "assets/img/categorias/colores/black-cat.png", "text": "El gatito es negro (schwarz)"}
+              {"id": 1, "img": "assets/img/categorias/colores/orange-slice.png", "text": "En alemán, el color <b>naranja</b> se dice <b>orange</b>."},
+              {"id": 2, "img": "assets/img/categorias/colores/trees-green.png", "text": "En alemán, el color <b>verde</b> se dice <b>grün</b>"},
+              {"id": 3, "img": "assets/img/categorias/colores/black-cat.png", "text": "En alemán, el color <b>negro</b> se dice <b>schwarz</b>"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿De qué color es la naranja?",
@@ -46,9 +46,9 @@
           },
           {"id" : 2, "title" : "Nivel 2",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/colores/like-red2.png", "text": "El corazón es rojo (rot)"},
-              {"id": 2, "img": "assets/img/categorias/colores/car-blue.png", "text": "El carrito es azul (blau)"},
-              {"id": 3, "img": "assets/img/categorias/colores/taxi-yellow.png", "text": "El taxi es amarillo (gelb)"}
+              {"id": 1, "img": "assets/img/categorias/colores/like-red2.png", "text": "En Alemania, el color <b>rojo</b> se dice <b>rot</b>"},
+              {"id": 2, "img": "assets/img/categorias/colores/car-blue.png", "text": "En Alemania, el color <b>azul</b> se dice <b>blau</b>"},
+              {"id": 3, "img": "assets/img/categorias/colores/taxi-yellow.png", "text": "En Alemania, el color <b>amarillo</b> se dice <b>gelb</b>"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿De qué color es el fuego?",
@@ -109,9 +109,9 @@
           },
           {"id" : 3, "title" : "Nivel 3",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/colores/ambulance-white1.png", "text": "La ambulancia es blanca (weiß)"},
-              {"id": 2, "img": "assets/img/categorias/colores/monkey.png", "text": "El changuito es café (braun)"},
-              {"id": 3, "img": "assets/img/categorias/colores/pig.png", "text": "El puerquito es rosa (rosa)"}
+              {"id": 1, "img": "assets/img/categorias/colores/ambulance-white1.png", "text": "En Alemania, el color <b>blanco</b> se dice <b>weiß</b>"},
+              {"id": 2, "img": "assets/img/categorias/colores/monkey.png", "text": "En Alemania, el color <b>café</b> se dice <b>braun</b>"},
+              {"id": 3, "img": "assets/img/categorias/colores/pig.png", "text": "En Alemania, el color <b>rosa</b> se dice <b>rosa</b>"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿De qué color es la rebanada de naranja?",
@@ -206,9 +206,9 @@
         "quiz" : [
           {"id" : 1, "title" : "Nivel 1",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/animales/dog.png", "text": "En alemán, el perro se dice hund"},
-              {"id": 2, "img": "assets/img/categorias/animales/cat.png", "text": "En alemán, el gato se dice katze"},
-              {"id": 3, "img": "assets/img/categorias/animales/pig.png", "text": "En alemán, el cerdito se dice schwein"}
+              {"id": 1, "img": "assets/img/categorias/animales/dog.png", "text": "En alemán, el <b>perro</b> se dice  <b>hund</b>"},
+              {"id": 2, "img": "assets/img/categorias/animales/cat.png", "text": "En alemán, el <b>gato</b> se dice <b>katze</b>"},
+              {"id": 3, "img": "assets/img/categorias/animales/pig.png", "text": "En alemán, el <b>cerdito</b> se dice <b>schwein</b>"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿Qué animal es?",
@@ -242,9 +242,9 @@
           },
           {"id" : 2, "title" : "Nivel 2",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/animales/lion.png", "text": "En alemán, el león se dice löwe"},
-              {"id": 2, "img": "assets/img/categorias/animales/giraffe.png", "text": "En alemán, la jirafa se dice giraffe"},
-              {"id": 3, "img": "assets/img/categorias/animales/wolf.png", "text": "En alemán, el lobo se dice wolfe"}
+              {"id": 1, "img": "assets/img/categorias/animales/lion.png", "text": "En alemán, el <b>león</b> se dice <b>löwe</b>"},
+              {"id": 2, "img": "assets/img/categorias/animales/giraffe.png", "text": "En alemán, la <b>jirafa</b> se dice <b>giraffe</b>"},
+              {"id": 3, "img": "assets/img/categorias/animales/wolf.png", "text": "En alemán, el <b>lobo</b> se dice <b>wolfe</b>"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿Cuál crees que sea el primer animal?",
@@ -305,9 +305,9 @@
           },
           {"id" : 3, "title" : "Nivel 3",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/animales/monkey.png", "text": "En alemán, el mono se dice affe"},
-              {"id": 2, "img": "assets/img/categorias/animales/duck.png", "text": "En alemán, el pato se dice ente"},
-              {"id": 3, "img": "assets/img/categorias/animales/owl.png", "text": "En alemán, el búho se dice owl"}
+              {"id": 1, "img": "assets/img/categorias/animales/monkey.png", "text": "En alemán, el <b>mono</b> se dice <b>affe</b>"},
+              {"id": 2, "img": "assets/img/categorias/animales/duck.png", "text": "En alemán, el <b>pato</b> se dice <b>ente</b>"},
+              {"id": 3, "img": "assets/img/categorias/animales/owl.png", "text": "En alemán, el <b>búho</b> se dice <b>owl</b>"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿Qué animal crees que sea?",
@@ -402,9 +402,9 @@
         "quiz" : [
           {"id" : 1, "title" : "Nivel 1",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/comida/apple.png", "text": "En Alemania, la manzana se dice apfel"},
-              {"id": 2, "img": "assets/img/categorias/comida/orange.png", "text": "En Alemania, la naranja se dice orange"},
-              {"id": 3, "img": "assets/img/categorias/comida/lemon.png", "text": "En Alemania, el limón se dice zitrone"}
+              {"id": 1, "img": "assets/img/categorias/comida/apple.png", "text": "En Alemania, la <b>manzana</b> se dice <b>apfel</b>"},
+              {"id": 2, "img": "assets/img/categorias/comida/orange.png", "text": "En Alemania, la <b>naranja</b> se dice <b>orange</b>"},
+              {"id": 3, "img": "assets/img/categorias/comida/lemon.png", "text": "En Alemania, el <b>limón</b> se dice <b>zitrone</b>"}
             ],
             "questions" : [
               {"id" : 1, "question" : "Una fruta muy conocida, ¿Cómo se dirá?",
@@ -438,9 +438,9 @@
           },
           {"id" : 2, "title" : "Nivel 2",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/comida/carrot.png", "text": "En Alemania, la zanahoria se dice karotte"},
-              {"id": 2, "img": "assets/img/categorias/comida/pineapple.png", "text": "En Alemania, la piña se dice ananas"},
-              {"id": 3, "img": "assets/img/categorias/comida/cheese.png", "text": "En Alemania, el queso se dice käse"}
+              {"id": 1, "img": "assets/img/categorias/comida/carrot.png", "text": "En Alemania, la <b>zanahoria</b> se dice <b>karotte</b>"},
+              {"id": 2, "img": "assets/img/categorias/comida/pineapple.png", "text": "En Alemania, la <b>piña</b> se dice <b>ananas</b>"},
+              {"id": 3, "img": "assets/img/categorias/comida/cheese.png", "text": "En Alemania, el <b>queso</b> se dice <b>käse</b>"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿Cómo se dirá la siguiente verdura?",
@@ -501,9 +501,9 @@
           },
           {"id" : 3, "title" : "Nivel 3",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/comida/milk.png", "text": "En Alemania, la leche se dice milch"},
-              {"id": 2, "img": "assets/img/categorias/comida/fish.png", "text": "En Alemania, el pescado se dice fisch"},
-              {"id": 3, "img": "assets/img/categorias/comida/cake.png", "text": "En Alemania, el pastel se dice kuchen"}
+              {"id": 1, "img": "assets/img/categorias/comida/milk.png", "text": "En Alemania, la <b>leche</b> se dice <b>milch</b>"},
+              {"id": 2, "img": "assets/img/categorias/comida/fish.png", "text": "En Alemania, el <b>pez</b> y el <b>pescado</b> se dice de la misma manera, <b>fisch</b>"},
+              {"id": 3, "img": "assets/img/categorias/comida/cake.png", "text": "En Alemania, el <b>pastel</b> se dice <b>kuchen</b>"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿Cómo se dirá la siguiente verdura?",
@@ -599,9 +599,9 @@
         "quiz" : [
           {"id" : 1, "title" : "Test 1",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/numeros/one.png", "text": "El número 'uno' en alemán se escribe 'eins'"},
-              {"id": 2, "img": "assets/img/categorias/numeros/two.png", "text": "El número 'dos' en alemán se escribe 'zwei'"},
-              {"id": 3, "img": "assets/img/categorias/numeros/three.png", "text": "El número 'tres' en alemán se escribe 'drei'"}
+              {"id": 1, "img": "assets/img/categorias/numeros/one.png", "text": "El número <b>uno</b> en alemán se escribe <b>eins</b>"},
+              {"id": 2, "img": "assets/img/categorias/numeros/two.png", "text": "El número <b>dos</b> en alemán se escribe <b>zwei</b>"},
+              {"id": 3, "img": "assets/img/categorias/numeros/three.png", "text": "El número <b>tres</b> en alemán se escribe <b>drei</b>"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿Cómo se escribe '1' en alemán?",
@@ -635,9 +635,9 @@
           },
           {"id" : 2, "title" : "Test 2",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/numeros/four.png", "text": "El número 'cuatro' en alemán se escribe 'vier'"},
-              {"id": 2, "img": "assets/img/categorias/numeros/five.png", "text": "El número 'cinco' en alemán se escribe 'fünf'"},
-              {"id": 3, "img": "assets/img/categorias/numeros/six.png", "text": "El número 'seis' en alemán se escribe 'sechs'"}
+              {"id": 1, "img": "assets/img/categorias/numeros/four.png", "text": "El número <b>cuatro</b> en alemán se escribe <b>vier</b>"},
+              {"id": 2, "img": "assets/img/categorias/numeros/five.png", "text": "El número <b>cinco</b> en alemán se escribe <b>fünf</b>"},
+              {"id": 3, "img": "assets/img/categorias/numeros/six.png", "text": "El número <b>seis</b> en alemán se escribe <b>sechs</b>"}
             ],
             "questions" : [
               
@@ -700,9 +700,9 @@
           },
           {"id" : 3, "title" : "Test 3",
             "intro": [
-              {"id": 1, "img": "assets/img/categorias/numeros/seven.png", "text": "El número 'siete' en alemán se escribe 'sieben'"},
-              {"id": 2, "img": "assets/img/categorias/numeros/eight.png", "text": "El número 'ocho' en alemán se escribe 'acht'"},
-              {"id": 3, "img": "assets/img/categorias/numeros/nine.png", "text": "El número 'nueve' en alemán se escribe 'neun'"}
+              {"id": 1, "img": "assets/img/categorias/numeros/seven.png", "text": "El número <b>siete</b> en alemán se escribe <b>sieben</b>"},
+              {"id": 2, "img": "assets/img/categorias/numeros/eight.png", "text": "El número <b>ocho</b> en alemán se escribe <b>acht</b>"},
+              {"id": 3, "img": "assets/img/categorias/numeros/nine.png", "text": "El número <b>nueve</b> en alemán se escribe <b>neun</b>"}
             ],
             "questions" : [
               {"id" : 1, "question" : "¿Cómo se escribe '5' en alemán?",
