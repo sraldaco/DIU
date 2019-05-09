@@ -81,11 +81,11 @@
               {"id" : 4, "question" : "¿De qué color es el gatito?",
                 "imgurl" : "assets/img/categorias/colores/black-cat.png",
                 "answers" : [
-                  {"id" : 1, "answer" : "schwarz"},
+                  {"id" : 1, "answer" : "braun"},
                   {"id" : 2, "answer" : "rot"},
-                  {"id" : 3, "answer" : "braun"}
+                  {"id" : 3, "answer" : "schwarz"}
                 ],
-                "correct" : 1
+                "correct" : 3
               },
               {"id" : 5, "question" : "¿De qué color es la estrella?",
                 "imgurl" : "assets/img/categorias/colores/star.png",
