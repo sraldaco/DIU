@@ -1,5 +1,6 @@
 var current = 0;
 $('#container').on('click', '.answer-button', function(){
+  if (!$(".can").hasClass("hide")) return;
   var isCorrect = $(this).checkAnswer();
   var msg = "fail";
   if (isCorrect) {
