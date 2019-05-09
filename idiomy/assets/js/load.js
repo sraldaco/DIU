@@ -1,6 +1,6 @@
 //reinicia los datos guardados en el navegador
 //localStorage.removeItem("skip");
-//localStorage.removeItem("score");
+localStorage.removeItem("score");
 var content = {}, categories = {};
 $(function() { 
   if (!storageAvailable('localStorage')) {

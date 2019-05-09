@@ -497,14 +497,30 @@ body {
   border-radius: 5px;
 }
 
+.score .score-11 {
+  right: 89px;
+}
+.score .score-22 {
+  right: 78px;
+}
 .score .score-33 {
   right: 67px;
 }
-
-.score .score-67 {
-  right: 33px;
+.score .score-44 {
+  right: 56px;
 }
-
+.score .score-55 {
+  right: 45px;
+}
+.score .score-66 {
+  right: 34px;
+}
+.score .score-77 {
+  right: 23px;
+}
+.score .score-88 {
+  right: 12px;
+}
 .score .score-100 {
   right: 0;
 }
