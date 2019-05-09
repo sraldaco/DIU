@@ -4,7 +4,7 @@ $('#container').on('click', '.answer-button', function(){
   var isCorrect = $(this).checkAnswer();
   var msg = "NO TE PREOCUPES, SEGURO LA SIGUIENTE ACERTARÁS";
   if (isCorrect) {
-    msg = "¡ ACERTASTE , ERES EL MEJOR !";
+    msg = "¡ACERTASTE, ERES EL MEJOR!";
     $(this).addClass('correcto').removeClass('answer-button');
   }else{
     $(this).addClass('incorrecto').removeClass('answer-button');

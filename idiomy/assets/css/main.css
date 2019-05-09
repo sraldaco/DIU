@@ -619,12 +619,12 @@
 }
 
 .correcto {
-  background-color: #cbff4d;
-  color: #003333;
+  background-color: #05f32c;
+  color: #021d06;
   width: 50%;
   padding: 10px 15px;
   border: 0px;
-  border-bottom: 6px solid #6baa75;
+  border-bottom: 6px solid #076b18;
   border-radius: 999px;
   margin-bottom: 50px;
   margin: 15px;
@@ -635,8 +635,8 @@
 }
 
 .incorrecto {
-  background-color: #d33e43;
-  color: #79b8b8;
+  background-color: #d60b11;
+  color: #FFF;
   width: 50%;
   padding: 10px 15px;
   border: 0px;
