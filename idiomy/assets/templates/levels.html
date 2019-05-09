@@ -4,17 +4,19 @@
       <h2 class="title">Niveles - {{:title}}</h2>
       <div class="grid-container">
         <div class="boton">
-          <button id="menu" class="btn-back" title="Volver a Home"></button>
+          <button id="menu" class="btn-back animated pulse" title="Volver a Home"></button>
         </div>
         <div class="message">Escoge uno de los siguientes niveles. La barrita verde indica tu avance.</div>
       </div>
-      {{for quiz}}
-      <div class="quiz-panel">
-        <button class="testinit" data-category="{{:#parent.parent.data.id}}" data-quiz="{{:id}}">
-          {{:title}} 
-        </button>
-        <div class="score" data-category="{{:#parent.parent.data.id}}" data-quiz="{{:id}}"></div>
+      <div class="selec-level">
+        {{for quiz}}
+        <div class="quiz-panel">
+          <button class="testinit" data-category="{{:#parent.parent.data.id}}" data-quiz="{{:id}}">
+            {{:title}} 
+          </button>
+          <div class="score" data-category="{{:#parent.parent.data.id}}" data-quiz="{{:id}}"></div>
+        </div>
+        {{/for}}
       </div>
-      {{/for}}
     </div>
   </script>

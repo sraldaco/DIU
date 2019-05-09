@@ -18,6 +18,7 @@ $(function() {
   }
   $('#container').on('click', '.testinit', function(){
     $(this).renderQuiz();
+    $('.body').removeClass('body').addClass('body-second-style');
   });
   $('#container').on('click','.skip-intro',function(e){
     e.preventDefault();

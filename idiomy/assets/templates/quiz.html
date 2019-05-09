@@ -4,11 +4,11 @@
       {{for intro}}
 
       <div class="intro item {{if id != 1}}hide {{else}} fadeInUp {{/if}}">
-          <h2 class="title">Intro {{:id}}</h2>
+          <h2 class="title">Intro {{:id}} / 3</h2>
           <div class="boton">
-              <button id="menu" class="btn-back" title="Volver a Home"></button>
+              <button id="menu" class="btn-back animated pulse" title="Volver a Home"></button>
               <button class="skip">Omitir Intros</button>
-            </div>
+          </div>
           <img src="{{:img}}" class="fluid-img">
           <div class="content">
             {{:text}}
@@ -23,7 +23,7 @@
       <div id="message">Mensaje</div>
       <img src="assets/img/perro.png" alt="mensaje" class="fluid-img">
       <div class="boton">
-          <button class="next-button" title="Siguiente pregunta"></button>
+          <button class="next-button animated tada" title="Siguiente pregunta"></button>
         </div>
     </div>
     
@@ -34,7 +34,7 @@
       <div class="result-message"></div>
       <div class="buttons">
         <button id="reload" class="buton-resume again animated pulse" title="Repetir preguntas">
-          <img src="assets/img/update-arrow.svg">
+          <img src="assets/img/return.svg">
         </button>
         <button id="menu" class="buton-resume home animated pulse" title="Ir a Home">
           <img src="assets/img/home.png">
