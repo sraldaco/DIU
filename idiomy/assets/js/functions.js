@@ -77,6 +77,15 @@ $.fn.checkAnswer = function (){
   return compare;
 }
 
+$.fn.getCorrectAnswer = function (){
+  var quizData = this.parents('#quiz-data');
+  var category = quizData.attr('data-category');
+  var quiz = quizData.attr('data-quiz');
+  var question = this.parents('.question').attr('data-question');
+  var correct = categories.items[category - 1].quiz[quiz - 1].questions[question - 1].correct_answer;
+  return correct;
+}
+
 $.fn.printScorePanel = function(element) {
   var category = this.attr('data-category');
   var quiz = this.attr('data-quiz');

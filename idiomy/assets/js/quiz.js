@@ -2,9 +2,10 @@ var current = 0;
 $('#container').on('click', '.answer-button', function(){
   if (!$(".can").hasClass("hide")) return;
   var isCorrect = $(this).checkAnswer();
-  var msg = "NO TE PREOCUPES, SEGURO LA SIGUIENTE ACERTARÁS";
+  var correct_answer = $(this).getCorrectAnswer();
+  var msg = "La respuesta correcta es <b>" + correct_answer + "</b>.<br>¡Ánimo, vamos con la siguiente!";
   if (isCorrect) {
-    msg = "¡ACERTASTE, ERES EL MEJOR!";
+    msg = "¡ACERTASTE, MUY BIEN HECHO!";
     $(this).addClass('correcto').removeClass('answer-button');
   }else{
     $(this).addClass('incorrecto').removeClass('answer-button');

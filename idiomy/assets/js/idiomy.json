@@ -22,7 +22,8 @@
                   {"id" : 2, "answer" : "orange"},
                   {"id" : 3, "answer" : "grau"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "orange"
               },
               {"id" : 2, "question" : "¿De qué color son las hojas del árbol?",
                 "imgurl" : "assets/img/categorias/colores/trees-green.png",
@@ -31,7 +32,8 @@
                   {"id" : 2, "answer" : "weiß"},
                   {"id" : 3, "answer" : "braun"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "grün"
               },
               {"id" : 3, "question" : "¿De qué color es el gatito?",
                 "imgurl" : "assets/img/categorias/colores/black-cat.png",
@@ -40,7 +42,8 @@
                   {"id" : 2, "answer" : "rot"},
                   {"id" : 3, "answer" : "braun"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "schwarz"
               }
             ]
           },
@@ -58,7 +61,8 @@
                   {"id" : 2, "answer" : "grün"},
                   {"id" : 3, "answer" : "rot"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "rot"
               },
               {"id" : 2, "question" : "¿De qué color son las hojas del árbol?",
                 "imgurl" : "assets/img/categorias/colores/trees-green.png",
@@ -67,7 +71,8 @@
                   {"id" : 2, "answer" : "weiß"},
                   {"id" : 3, "answer" : "braun"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "grün"
               },              
               {"id" : 3, "question" : "¿De qué color es el carro?",
                 "imgurl" : "assets/img/categorias/colores/car-blue.png",
@@ -76,7 +81,8 @@
                   {"id" : 2, "answer" : "schwarz"},
                   {"id" : 3, "answer" : "braun"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "blau"
               },
               {"id" : 4, "question" : "¿De qué color es el gatito?",
                 "imgurl" : "assets/img/categorias/colores/black-cat.png",
@@ -85,7 +91,8 @@
                   {"id" : 2, "answer" : "rot"},
                   {"id" : 3, "answer" : "schwarz"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "schwarz"
               },
               {"id" : 5, "question" : "¿De qué color es la estrella?",
                 "imgurl" : "assets/img/categorias/colores/star.png",
@@ -94,7 +101,8 @@
                   {"id" : 2, "answer" : "rot"},
                   {"id" : 3, "answer" : "orange"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "gelb"
               },
               {"id" : 6, "question" : "¿De qué color es la naranja?",
                 "imgurl" : "assets/img/categorias/colores/orange.png",
@@ -103,7 +111,8 @@
                   {"id" : 2, "answer" : "orange"},
                   {"id" : 3, "answer" : "grau"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "orange"
               }
             ]
           },
@@ -121,7 +130,8 @@
                   {"id" : 2, "answer" : "orange"},
                   {"id" : 3, "answer" : "grau"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "orange"
               },
               {"id" : 2, "question" : "¿De qué color son las hojas del árbol?",
                 "imgurl" : "assets/img/categorias/colores/trees-green.png",
@@ -130,7 +140,8 @@
                   {"id" : 2, "answer" : "weiß"},
                   {"id" : 3, "answer" : "braun"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "grün"
               },
               {"id" : 3, "question" : "¿De qué color es la nave espacial?",
                 "imgurl" : "assets/img/categorias/colores/rocket-ship--white2.png",
@@ -139,7 +150,8 @@
                   {"id" : 2, "answer" : "schwarz"},
                   {"id" : 3, "answer" : "weiß"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "weiß"
               },
               {"id" : 4, "question" : "¿De qué color es el gatito?",
                 "imgurl" : "assets/img/categorias/colores/black-cat.png",
@@ -148,7 +160,8 @@
                   {"id" : 2, "answer" : "rot"},
                   {"id" : 3, "answer" : "braun"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "schwarz"
               },
               {"id" : 5, "question" : "¿De qué color es el fuego?",
                 "imgurl" : "assets/img/categorias/colores/flame-red.png",
@@ -157,7 +170,8 @@
                   {"id" : 2, "answer" : "grün"},
                   {"id" : 3, "answer" : "rot"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "rot"
               },
               {"id" : 6, "question" : "¿De qué color es el búho?",
                 "imgurl" : "assets/img/categorias/colores/owl2.png",
@@ -166,7 +180,8 @@
                   {"id" : 2, "answer" : "braun"},
                   {"id" : 3, "answer" : "grau"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "braun"
               },
               {"id" : 7, "question" : "¿De qué color es la estrella?",
                 "imgurl" : "assets/img/categorias/colores/star.png",
@@ -175,7 +190,8 @@
                   {"id" : 2, "answer" : "rot"},
                   {"id" : 3, "answer" : "orange"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "gelb"
               },
               {"id" : 8, "question" : "¿De qué color es el carro?",
                 "imgurl" : "assets/img/categorias/colores/car-blue.png",
@@ -184,7 +200,8 @@
                   {"id" : 2, "answer" : "schwarz"},
                   {"id" : 3, "answer" : "braun"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "blau"
               },
               {"id" : 9, "question" : "¿De qué color es la flor?",
                 "imgurl" : "assets/img/categorias/colores/cherry-blossom.png",
@@ -193,7 +210,8 @@
                   {"id" : 2, "answer" : "blau"},
                   {"id" : 3, "answer" : "weiß"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "rosa"
               }
             ]
           }
@@ -218,7 +236,8 @@
                   {"id" : 2, "answer" : "Hund"},
                   {"id" : 3, "answer" : "Owl"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "hund"
               },
               {"id" : 2, "question" : "¿Qué animal crees que sea?",
                 "imgurl" : "assets/img/categorias/animales/cat.png",
@@ -227,7 +246,8 @@
                   {"id" : 2, "answer" : "Löwe"},
                   {"id" : 3, "answer" : "Ente"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "katze"
               },
               {"id" : 3, "question" : "Ya estás cerca de acabar, ¿Qué animal es el siguiente?",
                 "imgurl" : "assets/img/categorias/animales/pig.png",
@@ -236,7 +256,8 @@
                   {"id" : 2, "answer" : "Hund"},
                   {"id" : 3, "answer" : "Schwein"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "schwein"
               }
             ]
           },
@@ -254,7 +275,8 @@
                   {"id" : 2, "answer" : "Wolfe"},
                   {"id" : 3, "answer" : "Löwe"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "löwe"
               },
               {"id" : 2, "question" : "¿Qué animal es?",
                 "imgurl" : "assets/img/categorias/animales/dog.png",
@@ -263,7 +285,8 @@
                   {"id" : 2, "answer" : "Hund"},
                   {"id" : 3, "answer" : "Owl"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "hund"
               },
               {"id" : 3, "question" : "¿Qué animal es el siguiente?",
                 "imgurl" : "assets/img/categorias/animales/pig.png",
@@ -272,7 +295,8 @@
                   {"id" : 2, "answer" : "Hund"},
                   {"id" : 3, "answer" : "Schwein"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "schwein"
               },
               {"id" : 4, "question" : "¿Cómo se dirá este animar?",
                 "imgurl" : "assets/img/categorias/animales/giraffe.png",
@@ -281,7 +305,8 @@
                   {"id" : 2, "answer" : "Ente"},
                   {"id" : 3, "answer" : "Giraffe"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "giraffe"
               },
               {"id" : 5, "question" : "¿Qué animal crees que sea?",
                 "imgurl" : "assets/img/categorias/animales/cat.png",
@@ -290,7 +315,8 @@
                   {"id" : 2, "answer" : "Löwe"},
                   {"id" : 3, "answer" : "Ente"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "katze"
               },
               {"id" : 6, "question" : "Ya estás cerca de acabar, ¿Qué animal es el siguiente?",
                 "imgurl" : "assets/img/categorias/animales/wolf.png",
@@ -299,7 +325,8 @@
                   {"id" : 2, "answer" : "Wolfe"},
                   {"id" : 3, "answer" : "Hund"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "wolfe"
               }
             ]
           },
@@ -317,7 +344,8 @@
                   {"id" : 2, "answer" : "Löwe"},
                   {"id" : 3, "answer" : "Ente"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "katze"
               },
               {"id" : 2, "question" : "¿Cómo se dirá este animal?",
                 "imgurl" : "assets/img/categorias/animales/monkey.png",
@@ -326,7 +354,8 @@
                   {"id" : 2, "answer" : "Ente"},
                   {"id" : 3, "answer" : "Owl"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "affe"
               },
               {"id" : 3, "question" : "¿Qué animal es el siguiente?",
                 "imgurl" : "assets/img/categorias/animales/wolf.png",
@@ -335,7 +364,8 @@
                   {"id" : 2, "answer" : "Wolfe"},
                   {"id" : 3, "answer" : "Hund"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "wolfe"
               },
               {"id" : 4, "question" : "¿Cuál crees que sea el primer animal?",
                 "imgurl" : "assets/img/categorias/animales/lion.png",
@@ -344,7 +374,8 @@
                   {"id" : 2, "answer" : "Wolfe"},
                   {"id" : 3, "answer" : "Löwe"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "löwe"
               },
               {"id" : 5, "question" : "¿Cuál será este simpático animal?",
                 "imgurl" : "assets/img/categorias/animales/duck.png",
@@ -353,7 +384,8 @@
                   {"id" : 2, "answer" : "Hund"},
                   {"id" : 3, "answer" : "Katze"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "ente"
               },
               {"id" : 6, "question" : "¿Qué animal es?",
                 "imgurl" : "assets/img/categorias/animales/dog.png",
@@ -362,7 +394,8 @@
                   {"id" : 2, "answer" : "Hund"},
                   {"id" : 3, "answer" : "Owl"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "hund"
               },
               {"id" : 7, "question" : "¿Qué animal es el siguiente?",
                 "imgurl" : "assets/img/categorias/animales/pig.png",
@@ -371,7 +404,8 @@
                   {"id" : 2, "answer" : "Hund"},
                   {"id" : 3, "answer" : "Schwein"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "schwein"
               },
               {"id" : 8, "question" : "¿Qué animal es el siguiente?",
                 "imgurl" : "assets/img/categorias/animales/owl.png",
@@ -380,7 +414,8 @@
                   {"id" : 2, "answer" : "Owl"},
                   {"id" : 3, "answer" : "Eule"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "owl"
               },
               {"id" : 9, "question" : "Ya estás cerca de acabar ¿Cómo se dirá este animar?",
                 "imgurl" : "assets/img/categorias/animales/giraffe.png",
@@ -389,7 +424,8 @@
                   {"id" : 2, "answer" : "Ente"},
                   {"id" : 3, "answer" : "Giraffe"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "giraffe"
               }
             ]
           }
@@ -414,7 +450,8 @@
                   {"id" : 2, "answer" : "Apfel"},
                   {"id" : 3, "answer" : "Erdbeere"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "apfel"
               },
               {"id" : 2, "question" : "¿Cómo se llama esta fruta?",
                 "imgurl" : "assets/img/categorias/comida/orange.png",
@@ -423,7 +460,8 @@
                   {"id" : 2, "answer" : "Orange"},
                   {"id" : 3, "answer" : "Banane"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "orange"
               },
               {"id" : 3, "question" : "Ya estás cerca de acabar, ¿Qué fruta es la siguiente?",
                 "imgurl" : "assets/img/categorias/comida/lemon.png",
@@ -432,7 +470,8 @@
                   {"id" : 2, "answer" : "Erdbeere"},
                   {"id" : 3, "answer" : "Apfel"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "zitrone"
               }
             ]
           },
@@ -450,7 +489,8 @@
                   {"id" : 2, "answer" : "Kirsche"},
                   {"id" : 3, "answer" : "Karotte"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "karotte"
               },
               {"id" : 2, "question" : "Una fruta muy conocida, ¿Cómo se dirá?",
                 "imgurl" : "assets/img/categorias/comida/apple.png",
@@ -459,7 +499,8 @@
                   {"id" : 2, "answer" : "Apfel"},
                   {"id" : 3, "answer" : "Erdbeere"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "apfel"
               },
               {"id" : 3, "question" : "¿Cómo se llama esta fruta?",
                 "imgurl" : "assets/img/categorias/comida/orange.png",
@@ -468,7 +509,8 @@
                   {"id" : 2, "answer" : "Orange"},
                   {"id" : 3, "answer" : "Banane"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "orange"
               },
               {"id" : 4, "question" : "¿Cómo se llama el siguiente alimento?",
                 "imgurl" : "assets/img/categorias/comida/pineapple.png",
@@ -477,7 +519,8 @@
                   {"id" : 2, "answer" : "Kirsche"},
                   {"id" : 3, "answer" : "Ananas"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "ananas"
               },
               {"id" : 5, "question" : "¿Qué fruta es la siguiente?",
                 "imgurl" : "assets/img/categorias/comida/lemon.png",
@@ -486,7 +529,8 @@
                   {"id" : 2, "answer" : "Erdbeere"},
                   {"id" : 3, "answer" : "Apfel"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "zitrone"
               },
               {"id" : 6, "question" : "Ya estás cerca de acabar, ¿Qué bebida es la siguiente?",
                 "imgurl" : "assets/img/categorias/comida/cheese.png",
@@ -495,7 +539,8 @@
                   {"id" : 2, "answer" : "Milch"},
                   {"id" : 3, "answer" : "Erdbeere"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "käse"
               }
             ]
           },
@@ -513,7 +558,8 @@
                   {"id" : 2, "answer" : "Kirsche"},
                   {"id" : 3, "answer" : "Karotte"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "karotte"
               },
               {"id" : 2, "question" : "¿Cómo se dice leche?",
                 "imgurl" : "assets/img/categorias/comida/milk.png",
@@ -522,7 +568,8 @@
                   {"id" : 2, "answer" : "Milch"},
                   {"id" : 3, "answer" : "Käse"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "milch"
               },
               {"id" : 3, "question" : "Una fruta muy conocida, ¿Cómo se dirá?",
                 "imgurl" : "assets/img/categorias/comida/apple.png",
@@ -531,7 +578,8 @@
                   {"id" : 2, "answer" : "Apfel"},
                   {"id" : 3, "answer" : "Erdbeere"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "apfel"
               },
               {"id" : 4, "question" : "¿Y cómo se dice el pescado?",
                 "imgurl" : "assets/img/categorias/comida/fish.png",
@@ -540,7 +588,8 @@
                   {"id" : 2, "answer" : "Truthahn"},
                   {"id" : 3, "answer" : "Fisch"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "fish"
               },
               {"id" : 5, "question" : "¿Cómo se llama el siguiente alimento?",
                 "imgurl" : "assets/img/categorias/comida/pineapple.png",
@@ -549,7 +598,8 @@
                   {"id" : 2, "answer" : "Kirsche"},
                   {"id" : 3, "answer" : "Ananas"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "ananas"
               },
               {"id" : 6, "question" : "¿Qué bebida es la siguiente?",
                 "imgurl" : "assets/img/categorias/comida/cheese.png",
@@ -558,7 +608,8 @@
                   {"id" : 2, "answer" : "Milch"},
                   {"id" : 3, "answer" : "Erdbeere"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "käse"
               },
               {"id" : 7, "question" : "¿Qué fruta es la siguiente?",
                 "imgurl" : "assets/img/categorias/comida/lemon.png",
@@ -567,7 +618,8 @@
                   {"id" : 2, "answer" : "Erdbeere"},
                   {"id" : 3, "answer" : "Apfel"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "zitrone"
               },
               {"id" : 8, "question" : "¿Qué postre es el siguiente?",
                 "imgurl" : "assets/img/categorias/comida/cake.png",
@@ -576,7 +628,8 @@
                   {"id" : 2, "answer" : "Kuchen"},
                   {"id" : 3, "answer" : "Truthahn"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "kuchen"
               },
               {"id" : 9, "question" : "Ya estás cerca de acabar, ¿Cómo se llama esta fruta?",
                 "imgurl" : "assets/img/categorias/comida/orange.png",
@@ -585,7 +638,8 @@
                   {"id" : 2, "answer" : "Orange"},
                   {"id" : 3, "answer" : "Banane"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "orange"
               }
               
             ]
@@ -611,7 +665,8 @@
                   {"id" : 2, "answer" : "eins"},
                   {"id" : 3, "answer" : "vier"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "eins"
               },
               {"id" : 2, "question" : "¿Cómo se escribe '2' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/2.png",
@@ -620,7 +675,8 @@
                   {"id" : 2, "answer" : "fünf"},
                   {"id" : 3, "answer" : "drei"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "zwei"
               },
               {"id" : 3, "question" : "¿Cómo se escribe '3' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/3.png",
@@ -629,7 +685,8 @@
                   {"id" : 2, "answer" : "drei"},
                   {"id" : 3, "answer" : "eins"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "drei"
               }
             ]
           },
@@ -648,7 +705,8 @@
                   {"id" : 2, "answer" : "fünf"},
                   {"id" : 3, "answer" : "drei"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "zwei"
               },
 
               {"id" : 2, "question" : "¿Cómo se escribe '4' en alemán?",
@@ -658,7 +716,8 @@
                   {"id" : 2, "answer" : "sechs"},
                   {"id" : 3, "answer" : "vier"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "vier"
               },
               {"id" : 3, "question" : "¿Cómo se escribe '3' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/3.png",
@@ -667,7 +726,8 @@
                   {"id" : 2, "answer" : "drei"},
                   {"id" : 3, "answer" : "eins"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "drei"
               },
               {"id" : 4, "question" : "¿Cómo se escribe '1' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/1.png",
@@ -676,7 +736,8 @@
                   {"id" : 2, "answer" : "eins"},
                   {"id" : 3, "answer" : "vier"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "eins"
               },
               {"id" : 5, "question" : "¿Cómo se escribe '6' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/6.png",
@@ -685,7 +746,8 @@
                   {"id" : 2, "answer" : "acht"},
                   {"id" : 3, "answer" : "sechs"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "sechs"
               },
               {"id" : 6, "question" : "¿Cómo se escribe '5' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/5.png",
@@ -694,7 +756,8 @@
                   {"id" : 2, "answer" : "fünf"},
                   {"id" : 3, "answer" : "neun"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "fünf"
               }
             ]
           },
@@ -712,7 +775,8 @@
                   {"id" : 2, "answer" : "fünf"},
                   {"id" : 3, "answer" : "neun"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "fünf"
               },
               {"id" : 2, "question" : "¿Cómo se escribe '1' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/1.png",
@@ -721,7 +785,8 @@
                   {"id" : 2, "answer" : "eins"},
                   {"id" : 3, "answer" : "vier"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "eins"
               },
               {"id" : 3, "question" : "¿Cómo se escribe '9' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/9.png",
@@ -730,7 +795,8 @@
                   {"id" : 2, "answer" : "fünf"},
                   {"id" : 3, "answer" : "acht"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "neun"
               },
               {"id" : 4, "question" : "¿Cómo se escribe '3' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/3.png",
@@ -739,7 +805,8 @@
                   {"id" : 2, "answer" : "drei"},
                   {"id" : 3, "answer" : "eins"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "drei"
               },
               {"id" : 5, "question" : "¿Cómo se escribe '2' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/2.png",
@@ -748,7 +815,8 @@
                   {"id" : 2, "answer" : "fünf"},
                   {"id" : 3, "answer" : "drei"}
                 ],
-                "correct" : 1
+                "correct" : 1,
+                "correct_answer" : "zwei"
               },
               {"id" : 6, "question" : "¿Cómo se escribe '7' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/7.png",
@@ -757,7 +825,8 @@
                   {"id" : 2, "answer" : "zehn"},
                   {"id" : 3, "answer" : "sieben"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "sieben"
               },
               {"id" : 7, "question" : "¿Cómo se escribe '4' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/4.png",
@@ -766,7 +835,8 @@
                   {"id" : 2, "answer" : "sechs"},
                   {"id" : 3, "answer" : "vier"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "vier"
               },
               {"id" : 8, "question" : "¿Cómo se escribe '6' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/6.png",
@@ -775,7 +845,8 @@
                   {"id" : 2, "answer" : "acht"},
                   {"id" : 3, "answer" : "sechs"}
                 ],
-                "correct" : 3
+                "correct" : 3,
+                "correct_answer" : "sechs"
               },
               {"id" : 9, "question" : "¿Cómo se escribe '8' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/8.png",
@@ -784,7 +855,8 @@
                   {"id" : 2, "answer" : "acht"},
                   {"id" : 3, "answer" : "vier"}
                 ],
-                "correct" : 2
+                "correct" : 2,
+                "correct_answer" : "acht"
               }
             ]
           }
