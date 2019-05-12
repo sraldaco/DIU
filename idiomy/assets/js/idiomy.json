@@ -433,7 +433,7 @@
       },
       {
         "id" : 3,
-        "title": "Comida / Mahlzeit",
+        "title": "Comida / Essen",
         "img" : "assets/img/categorias/comida.png",
         "quiz" : [
           {"id" : 1, "title" : "Nivel 1",
@@ -662,11 +662,11 @@
                 "imgurl" : "assets/img/categorias/numeros/1.png",
                 "answers" : [
                   {"id" : 1, "answer" : "sechs"},
-                  {"id" : 2, "answer" : "eins"},
+                  {"id" : 2, "answer" : "ein"},
                   {"id" : 3, "answer" : "vier"}
                 ],
                 "correct" : 2,
-                "correct_answer" : "eins"
+                "correct_answer" : "ein"
               },
               {"id" : 2, "question" : "¿Cómo se escribe '2' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/2.png",
@@ -733,11 +733,11 @@
                 "imgurl" : "assets/img/categorias/numeros/1.png",
                 "answers" : [
                   {"id" : 1, "answer" : "sechs"},
-                  {"id" : 2, "answer" : "eins"},
+                  {"id" : 2, "answer" : "ein"},
                   {"id" : 3, "answer" : "vier"}
                 ],
                 "correct" : 2,
-                "correct_answer" : "eins"
+                "correct_answer" : "ein"
               },
               {"id" : 5, "question" : "¿Cómo se escribe '6' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/6.png",
@@ -782,11 +782,11 @@
                 "imgurl" : "assets/img/categorias/numeros/1.png",
                 "answers" : [
                   {"id" : 1, "answer" : "sechs"},
-                  {"id" : 2, "answer" : "eins"},
+                  {"id" : 2, "answer" : "ein"},
                   {"id" : 3, "answer" : "vier"}
                 ],
                 "correct" : 2,
-                "correct_answer" : "eins"
+                "correct_answer" : "ein"
               },
               {"id" : 3, "question" : "¿Cómo se escribe '9' en alemán?",
                 "imgurl" : "assets/img/categorias/numeros/9.png",
