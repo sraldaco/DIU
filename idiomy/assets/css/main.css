@@ -230,13 +230,14 @@
 
 .levels .btn-back {
   padding: 10px;
-  width: 50px;
-  height: 50px;
-  background-image: url("./../img/left-arrow.svg");
+  width: 75px;
+  height: 75px;
+  background-image: url("./../img/home.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: transparent;
+  background-color: #eccf0d;
   border: 0px;
+  border-radius: 10px;
 }
 
 .levels .boton {
@@ -252,14 +253,14 @@
 
 .intro .btn-back {
   padding: 10px;
-  width: 50px;
-  height: 50px;
-  background-image: url("./../img/left-arrow.svg");
+  width: 75px;
+  height: 75px;
+  background-image: url("./../img/home.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: transparent;
+  background-color: #eccf0d;
   border: 0px;
-  float: left;
+  border-radius: 10px;
 }
 
 .intro .skip {
