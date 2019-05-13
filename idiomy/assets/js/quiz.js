@@ -55,7 +55,7 @@ function showNext(n) {
       $('.stars img').addClass('animated heartBeat estrellas');  
       $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/no-star.png', width: '150px', height: '150px'}))
       $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/no-star.png', width: '150px', height: '150px'}))
-    }else if (result_percentage <= .67){
+    }else if (result_percentage < 1){
       $('.result-message').html("¡Muy bien! ");
       $('.result-message').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/tongue_face.png', width: '50px', height: '50px'}))
       $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '150px', height: '150px'}))
