@@ -48,7 +48,7 @@ function showNext(n) {
       $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/no-star.png', width: '150px', height: '150px'}))
       $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/no-star.png', width: '150px', height: '150px'}))
       $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/no-star.png', width: '150px', height: '150px'}))
-    }else if (result_percentage <= .33){
+    }else if (result_percentage <= .5){
       $('.result-message').html("Puedes mejorar. ¡Inténtalo de nuevo! ");
       $('.result-message').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/think_face.png', width: '50px', height: '50px'}))
       $('.stars').append($('<img>',{id:'star',src:'assets/img/resultado_quiz/star.png', width: '150px', height: '150px'}))
