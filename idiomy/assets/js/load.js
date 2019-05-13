@@ -1,5 +1,4 @@
 //reinicia los datos guardados en el navegador
-//localStorage.removeItem("skip");
 //localStorage.removeItem("score");
 var content = {}, categories = {};
 $(function() { 
@@ -22,10 +21,6 @@ $(function() {
   });
   $('#container').on('click','.skip-intro',function(e){
     e.preventDefault();
-    /*var chk = document.getElementById("remember").checked;
-    if (chk) {
-      localStorage.setItem("skip", "true");
-    }*/
     renderPanel(categories);
   });
 
