@@ -15,7 +15,7 @@
               {"id": 3, "img": "assets/img/categorias/colores/black-cat.png", "text": "En alemán, el color <b>negro</b> se dice <b>schwarz</b>"}
             ],
             "questions" : [
-              {"id" : 1, "question" : "¿De qué color es la naranja?",
+              {"id" : 1, "question" : "¿De qué color es la <b>naranja</b>?",
                 "imgurl" : "assets/img/categorias/colores/orange.png",
                 "answers" : [
                   {"id" : 1, "answer" : "weiß"},

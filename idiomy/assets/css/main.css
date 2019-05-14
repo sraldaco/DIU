@@ -67,6 +67,7 @@
 
 .fluid-img {
   max-width: 100%;
+  margin: 1em 0px;
 }
 
 .hide {
@@ -229,15 +230,32 @@
 }
 
 .levels .btn-back {
-  padding: 10px;
-  width: 75px;
-  height: 75px;
-  background-image: url("./../img/home.png");
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  background-color: #003333;
+  border-radius: 999px;
+  text-align: center;
+  border: 0px;
+}
+
+.levels .btn-back .imagen {
+  margin: auto;
+  width: 25px;
+  height: 25px;
+  background-image: url("/idiomy/assets/img/home-blanco.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: #eccf0d;
-  border: 0px;
-  border-radius: 10px;
+}
+
+.levels .btn-back:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #FFBB2F;
+}
+
+.levels .btn-back:hover .imagen {
+  background-image: url("/idiomy/assets/img/home.png");
 }
 
 .levels .boton {
@@ -245,22 +263,75 @@
 }
 
 .intro {
-  padding: 2em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.intro .content b {
+  font-family: 'Denk One', sans-serif;
+  font-size: 1.5em;
+}
+
 .intro .btn-back {
-  padding: 10px;
-  width: 75px;
-  height: 75px;
-  background-image: url("./../img/home.png");
+  border: 0px;
+  float: left;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  background-color: #003333;
+  border-radius: 999px;
+  text-align: center;
+}
+
+.intro .btn-back .imagen {
+  margin: auto;
+  width: 25px;
+  height: 25px;
+  background-image: url("/idiomy/assets/img/home-blanco.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: #eccf0d;
+}
+
+.intro .btn-back:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #FFBB2F;
+}
+
+.intro .btn-back:hover .imagen {
+  background-image: url("/idiomy/assets/img/home.png");
+}
+
+.intro .volver-niveles {
   border: 0px;
-  border-radius: 10px;
+  float: left;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  background-color: #003333;
+  border-radius: 999px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.intro .volver-niveles .imagen-niveles {
+  margin: auto;
+  width: 25px;
+  height: 25px;
+  background-image: url("/idiomy/assets/img/back-white.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.intro .volver-niveles:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #FFBB2F;
+}
+
+.intro .volver-niveles:hover .imagen-niveles {
+  background-image: url("/idiomy/assets/img/back.png");
 }
 
 .intro .skip {
@@ -382,6 +453,7 @@
 }
 
 .question {
+  padding: 15px 0px;
   position: absolute;
   background-position: center;
   background-repeat: no-repeat;
@@ -397,20 +469,68 @@
 }
 
 .question .btn-back {
-  padding: 10px;
-  width: 75px;
-  height: 75px;
-  background-image: url("./../img/home.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  border-radius: 10px;
-  background-color: #eccf0d;
   border: 0px;
   float: left;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  background-color: #003333;
+  border-radius: 999px;
+  text-align: center;
+}
+
+.question .btn-back .imagen {
+  margin: auto;
+  width: 25px;
+  height: 25px;
+  background-image: url("/idiomy/assets/img/home-blanco.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.question .btn-back:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #FFBB2F;
+}
+
+.question .btn-back:hover .imagen {
+  background-image: url("/idiomy/assets/img/home.png");
+}
+
+.question .volver-niveles {
+  border: 0px;
+  float: left;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  background-color: #003333;
+  border-radius: 999px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.question .volver-niveles .imagen-niveles {
+  margin: auto;
+  width: 25px;
+  height: 25px;
+  background-image: url("/idiomy/assets/img/bback-white.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.question .volver-niveles:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #FFBB2F;
+}
+
+.question .volver-niveles:hover .imagen-niveles {
+  background-image: url("/idiomy/assets/img/bback.png");
 }
 
 .question .picture {
-  width: 40%;
+  width: 30%;
   margin: auto;
 }
 
@@ -421,6 +541,12 @@
   text-align: center;
   font-size: 2em;
   border-radius: 10px;
+  margin: 0px 0px 1em 0px;
+}
+
+.question .pregunta b {
+  font-family: 'Denk One', sans-serif;
+  font-size: 1.4em;
 }
 
 .question .answer-button {
@@ -433,8 +559,9 @@
   border-radius: 999px;
   margin-bottom: 50px;
   margin: 15px;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: bold;
+  font-family: 'Denk One', sans-serif;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
@@ -444,7 +571,7 @@
   background-color: #000040;
   border-color: #030317;
   color: #FFF;
-  font-size: 1.35em;
+  font-size: 1.45em;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition: 0.3s;
@@ -525,19 +652,46 @@
   cursor: pointer;
 }
 
+.resume .buttons #siguienteNivel {
+  margin: 15px;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: transparent;
+  border: 5px solid black;
+  border-radius: 999px;
+  text-align: center;
+}
+
+.resume .buttons #siguienteNivel img {
+  height: 90px;
+}
+
+.resume .buttons #siguienteNivel:hover {
+  -webkit-animation: animated pulse;
+          animation: animated pulse;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  cursor: pointer;
+}
+
 .score {
-  background: white;
-  background: -webkit-gradient(left top, right top, color-stop(0%, white), color-stop(47%, #f6f6f6), color-stop(100%, #ededed));
-  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(47%, #f6f6f6), to(#ededed));
-  background: linear-gradient(to right, white 0%, #f6f6f6 47%, #ededed 100%);
+  background-color: #00abbb5e;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=1);
-  width: 100px;
-  height: 20px;
-  background-color: #efefef;
+  width: 200px;
+  height: 30px;
   display: inline-block;
   padding: 0;
   position: relative;
-  border-radius: 5px;
+  border-radius: 999px;
+}
+
+.score img {
+  margin: 0px 4px;
 }
 
 .score .score-foreground {
@@ -621,24 +775,25 @@
 }
 
 .correcto {
-  background-color: #05f32c;
-  color: #021d06;
+  background-color: #cbff4d;
+  color: #003333;
   width: 50%;
   padding: 10px 15px;
   border: 0px;
-  border-bottom: 6px solid #076b18;
+  border-bottom: 6px solid #6baa75;
   border-radius: 999px;
   margin-bottom: 50px;
   margin: 15px;
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: bold;
+  font-family: 'Denk One', sans-serif;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
 
 .incorrecto {
-  background-color: #d60b11;
-  color: #FFF;
+  background-color: #d33e43;
+  color: #79b8b8;
   width: 50%;
   padding: 10px 15px;
   border: 0px;
@@ -650,5 +805,15 @@
   font-weight: bold;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+}
+
+.nivel {
+  width: 10%;
+  background-color: #003333;
+  font-family: 'Denk One', sans-serif;
+  font-size: 2em;
+  color: #ffffff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */

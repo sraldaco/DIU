@@ -16,9 +16,24 @@ $(function() {
     });
   }
   $('#container').on('click', '.testinit', function(){
-    $(this).renderQuiz();
+    $(this).renderQuiz(0,0);
     $('.body').removeClass('body').addClass('body-second-style');
   });
+
+  /**
+   * Recargamos las introducciones a las preguntas según el nivel 
+   * en cual se encuentra la partida actual
+   */
+  $('#container').on('click', '.volver-intros', function(){
+    $('.body').removeClass('body').addClass('body-second-style');
+    $('.correcto'). removeClass('correcto').addClass('answer-button');
+    $('.incorrecto'). removeClass('incorrecto').addClass('answer-button');
+    $('.stars').empty();
+    current = - 1;
+    showNext(current);
+    $(this).volverIntros();//Llamamos a la función para obtener las introducciones actuales
+  });
+
   $('#container').on('click','.skip-intro',function(e){
     e.preventDefault();
     renderPanel(categories);

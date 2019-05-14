@@ -1,13 +1,22 @@
 <script id="quiz" type="text/x-jsrender">
   <div id="quiz-data" data-category="{{:category}}" data-quiz="{{:id}}">
+    <div class="nivel">{{:title}} </div>
     <div id="intro">
       {{for intro}}
-
+      
       <div class="intro item {{if id != 1}}hide {{else}} fadeInUp {{/if}}">
           <h2 class="title">Intro {{:id}} / 3</h2>
+
           <div class="boton">
-              <button id="menu" class="btn-back animated pulse" title="Volver a Home"></button>
-              <button class="skip">Omitir Intros</button>
+            <button id="menu-levels" class="volver-niveles animated pulse" title="Volver a los Niveles">
+                <div class="imagen-niveles">
+                </div>
+              </button>            
+            <button id="menu" class="btn-back animated pulse" title="Volver a Home">
+              <div class="imagen">
+              </div>
+            </button>
+            <button class="skip">Omitir Intros</button>
           </div>
           <img src="{{:img}}" class="fluid-img">
           <div class="content">
@@ -29,15 +38,17 @@
     
     <div class="resume item-wrapper animated hide">
       <h2 class="title">Resumen</h2>
-      <h1>{{:title}}</h1>
       <div class="stars"></div>
       <div class="result-message"></div>
       <div class="buttons">
-        <button id="reload" class="buton-resume again animated pulse" title="Repetir preguntas">
+        <button id="reload" class="buton-resume volver-intros again animated pulse" title="Repetir Nivel">
           <img src="assets/img/return.svg">
         </button>
         <button id="menu" class="buton-resume home animated pulse" title="Ir a Home">
           <img src="assets/img/home.png">
+        </button>
+        <button id="siguienteNivel" class="buton-resume siguienteNivel animated pulse" title="Siguiente Nivel">
+            <img src="assets/img/next.png">
         </button>
       </div>
     </div>

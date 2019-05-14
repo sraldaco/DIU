@@ -38,10 +38,66 @@ $.fn.renderLevels = function() {
   });
 }
 
+$.fn.volverNiveles = function(){
+  var actual = document.getElementById("quiz-data").getAttribute("data-category");
+  console.log(actual);
+  var levels = categories.items[actual-1];
+  $('#container').load('assets/templates/levels.html',function(){
+    var template = $.templates("#levels");
+    var htmlOutput = template.render(levels);
+    $('#container').html(htmlOutput);
+    var score = JSON.parse(localStorage.getItem("score"));
+    $('.score').each(function(){
+      $(this).printScorePanel(score);
+    });
+  });
+}
 
-$.fn.renderQuiz = function (){
-  var categoryID = this.attr('data-category');
-  var quizID = this.attr('data-quiz');
+$.fn.volverIntros = function(){
+  var actual = document.getElementById("quiz-data");
+  var nivelActual = actual.getAttribute("data-category");
+  var introActual = actual.getAttribute("data-quiz");
+  console.log(nivelActual);
+
+  var levels = categories.items[nivelActual-1];
+  $('#container').load('assets/templates/quiz.html',
+    function() {
+      var quiz = categories.items[nivelActual-1].quiz[introActual-1];
+      quiz['category'] = nivelActual;
+      var template = $.templates("#quiz");
+      var htmlOutput = template.render(quiz);
+      $('#container').html(htmlOutput);
+      $('#items').load('assets/templates/question.html',
+        function() {
+          quiz.questions.forEach(function(question, index){
+            template = $.templates("#question");
+            htmlOutput = template.render(question);
+            $('#items').append(htmlOutput);
+          });
+        }
+      );
+    }
+  );  
+}
+
+/**
+ * Función que despliega y carga el siguiente cuestionario
+ * a partir del Id del cuestionario actual.
+ */
+$.fn.renderNextQuiz = function (){
+  var actual = document.getElementById("quiz-data");
+  var categoryID = actual.getAttribute("data-category");
+  var quizID = actual.getAttribute("data-quiz");
+  $(this).renderQuiz(categoryID, ++quizID);// Cargamos el siguiente nivel
+  current = -1;
+  showNext(current);//Iniciamos con el despliegue de las preguntas
+}
+
+$.fn.renderQuiz = function (categoryID, quizID){
+  if(categoryID === 0 && quizID === 0){
+    var categoryID = this.attr('data-category');
+    var quizID = this.attr('data-quiz');
+  }
   $('#container').load('assets/templates/quiz.html',
     function() {
       var quiz = categories.items[categoryID-1].quiz[quizID-1];
@@ -52,6 +108,7 @@ $.fn.renderQuiz = function (){
       $('#items').load('assets/templates/question.html',
         function() {
           quiz.questions.forEach(function(question, index){
+            console.log("Valor de Index: "+index);
             template = $.templates("#question");
             htmlOutput = template.render(question);
             $('#items').append(htmlOutput);
@@ -96,7 +153,32 @@ $.fn.printScorePanel = function(element) {
     count += quizData[key].points;
     i++;
   }
-  var score = "<span class='score-foreground score-"+ (count/i*100).toFixed(0) + "'></span>";
+  var puntuacion = (count/i*100).toFixed(0);
+  var score;
+  if(puntuacion === 0){
+    score = "<p>Nada</p>";
+  }else if(puntuacion > 0 && puntuacion <= 20){
+    score = "<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
+  }else if(puntuacion > 20 && puntuacion <= 40){
+    score = "<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
+  }else if(puntuacion > 40 && puntuacion <= 60){
+    score = "<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
+  }else if(puntuacion > 60 && puntuacion < 100){
+    score = "<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
+  }else if(puntuacion == 100){
+    score = "<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
+  }
+  //var score = "<span class='score-foreground score-"+ (count/i*100).toFixed(0) + "'></span>";
   this.html(score);
 }
 
