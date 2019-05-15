@@ -216,7 +216,7 @@
       margin: auto;
       width: 25px;
       height: 25px;
-      background-image: url("/idiomy/assets/img/home-blanco.png");
+      background-image: url("./../img/home-blanco.png");
       background-repeat: no-repeat;
       background-size: 100%;
     }
@@ -226,7 +226,7 @@
     transition: 0.4s;
     background-color: #FFBB2F;
     .imagen{
-      background-image: url("/idiomy/assets/img/home.png");
+      background-image: url("./../img/home.png");
     }
   }
 
@@ -262,7 +262,7 @@
       margin: auto;
       width: 25px;
       height: 25px;
-      background-image: url("/idiomy/assets/img/home-blanco.png");
+      background-image: url("./../img/home-blanco.png");
       background-repeat: no-repeat;
       background-size: 100%;
     }
@@ -272,7 +272,7 @@
     transition: 0.4s;
     background-color: #FFBB2F;
     .imagen{
-      background-image: url("/idiomy/assets/img/home.png");
+      background-image: url("./../img/home.png");
     }
   }
 
@@ -290,7 +290,7 @@
       margin: auto;
       width: 25px;
       height: 25px;
-      background-image: url("/idiomy/assets/img/back-white.png");
+      background-image: url("./../img/back-white.png");
       background-repeat: no-repeat;
       background-size: 100%;
     }
@@ -299,7 +299,8 @@
     transition: 0.4s;
     background-color: #FFBB2F;
     .imagen-niveles{
-      background-image: url("/idiomy/assets/img/back.png");
+      cursor: pointer;
+      background-image: url("./../img/back.png");
     }
   }
 
@@ -442,7 +443,7 @@
       margin: auto;
       width: 25px;
       height: 25px;
-      background-image: url("/idiomy/assets/img/home-blanco.png");
+      background-image: url("./../img/home-blanco.png");
       background-repeat: no-repeat;
       background-size: 100%;
     }
@@ -452,7 +453,7 @@
     transition: 0.4s;
     background-color: #FFBB2F;
     .imagen{
-      background-image: url("/idiomy/assets/img/home.png");
+      background-image: url("./../img/home.png");
     }
   }
 
@@ -470,7 +471,7 @@
       margin: auto;
       width: 25px;
       height: 25px;
-      background-image: url("/idiomy/assets/img/bback-white.png");
+      background-image: url("./../img/bback-white.png");
       background-repeat: no-repeat;
       background-size: 100%;
     }
@@ -479,7 +480,8 @@
     transition: 0.4s;
     background-color: #FFBB2F;
     .imagen-niveles{
-      background-image: url("/idiomy/assets/img/bback.png");
+      cursor: pointer;
+      background-image: url("./../img/bback.png");
     }
   }
 

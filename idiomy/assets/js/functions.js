@@ -158,25 +158,25 @@ $.fn.printScorePanel = function(element) {
   if(puntuacion === 0){
     score = "<p>Nada</p>";
   }else if(puntuacion > 0 && puntuacion <= 20){
-    score = "<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
+    score = "<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
   }else if(puntuacion > 20 && puntuacion <= 40){
-    score = "<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
-    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
+    score = "<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
   }else if(puntuacion > 40 && puntuacion <= 60){
-    score = "<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
-    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
-    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
+    score = "<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
   }else if(puntuacion > 60 && puntuacion < 100){
-    score = "<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
-    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
-    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
-    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
+    score = "<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
   }else if(puntuacion == 100){
-    score = "<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
-    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
-    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
-    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
-    +"<span><img src='/idiomy/assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
+    score = "<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>"
+    +"<span><img src='assets/img/resultado_quiz/star.png' style='width:30px;'></span>";
   }
   //var score = "<span class='score-foreground score-"+ (count/i*100).toFixed(0) + "'></span>";
   this.html(score);
