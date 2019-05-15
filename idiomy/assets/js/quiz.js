@@ -1,3 +1,11 @@
+var correcto = new Audio();
+correcto.src="assets/audio/NFF-choice-good.wav";
+var incorrecto = new Audio();
+incorrecto.src="assets/audio/NFF-choice-bad.wav";
+var homeBoton = new Audio();
+homeBoton.src="assets/audio/home.mp3";
+var botones = new Audio();
+botones.src = "assets/audio/drip.mp3";
 var current = 0;
 $('#container').on('click', '.answer-button', function(){
   if (!$(".can").hasClass("hide")) return;
@@ -5,9 +13,11 @@ $('#container').on('click', '.answer-button', function(){
   var correct_answer = $(this).getCorrectAnswer();
   var msg = "La respuesta correcta es <b>" + correct_answer + "</b>.<br>¡Ánimo, vamos con la siguiente!";
   if (isCorrect) {
+    correcto.play();
     msg = "¡ACERTASTE, MUY BIEN HECHO!";
     $(this).addClass('correcto').removeClass('answer-button');
   }else{
+    incorrecto.play();
     $(this).addClass('incorrecto').removeClass('answer-button');
   }
   $('#message').html(msg);
@@ -149,4 +159,12 @@ function showQuiz() {
 $('#container').on('click', '.siguienteNivel', function(){
   $(this).renderNextQuiz();
   $('.body').removeClass('body').addClass('body-second-style');
+});
+
+$('#container').on('click','#menu', function(){
+  homeBoton.play();
+});
+
+$('#container').on('click','.botones', function(){
+  botones.play();
 });

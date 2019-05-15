@@ -16,6 +16,7 @@ $(function() {
     });
   }
   $('#container').on('click', '.testinit', function(){
+    testinitAudio.play();
     $(this).renderQuiz(0,0);
     $('.body').removeClass('body').addClass('body-second-style');
   });
@@ -40,6 +41,17 @@ $(function() {
   });
 
   $('#container').on('click','.level',function(e){
+    levelAudio.play();
     $(this).renderLevels();
   });
 });
+
+var levelAudio = new Audio();
+levelAudio.src = "assets/audio/start.mp3";
+var testinitAudio = new Audio();
+testinitAudio.src="assets/audio/drip.mp3";
+var audiointro = new Audio();
+audiointro.src = "assets/audio/home.mp3";
+function play_intro(){
+  audiointro.play();
+}

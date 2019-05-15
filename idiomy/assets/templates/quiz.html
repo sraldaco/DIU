@@ -8,7 +8,7 @@
           <h2 class="title">Intro {{:id}} / 3</h2>
 
           <div class="boton">
-            <button id="menu-levels" class="volver-niveles animated pulse" title="Volver a los Niveles">
+            <button id="menu-levels" class="botones volver-niveles animated pulse" title="Volver a los Niveles">
                 <div class="imagen-niveles">
                 </div>
               </button>            
@@ -16,13 +16,13 @@
               <div class="imagen">
               </div>
             </button>
-            <button class="skip">Omitir Intros</button>
+            <button class="botones skip">Omitir Intros</button>
           </div>
           <img src="{{:img}}" class="fluid-img">
           <div class="content">
             {{:text}}
           </div>
-          <button class="next-intro" data-target="{{:id}}">Siguiente Intro</button>
+          <button class="botones next-intro" data-target="{{:id}}">Siguiente Intro</button>
       </div>
       {{/for}}
     </div>
@@ -32,7 +32,7 @@
       <div id="message">Mensaje</div>
       <img src="assets/img/perro.png" alt="mensaje" class="fluid-img">
       <div class="boton">
-          <button class="next-button animated tada" title="Siguiente pregunta"></button>
+          <button class="botones next-button animated tada" title="Siguiente pregunta"></button>
         </div>
     </div>
     
@@ -41,13 +41,13 @@
       <div class="stars"></div>
       <div class="result-message"></div>
       <div class="buttons">
-        <button id="reload" class="buton-resume volver-intros again animated pulse" title="Repetir Nivel">
+        <button id="reload" class="botones buton-resume volver-intros again animated pulse" title="Repetir Nivel">
           <img src="assets/img/return.svg">
         </button>
         <button id="menu" class="buton-resume home animated pulse" title="Ir a Home">
           <img src="assets/img/home.png">
         </button>
-        <button id="siguienteNivel" class="buton-resume siguienteNivel animated pulse" title="Siguiente Nivel">
+        <button id="siguienteNivel" class="botones buton-resume siguienteNivel animated pulse {{if id == 3}}hide {{/if}}" title="Siguiente Nivel">
             <img src="assets/img/next.png">
         </button>
       </div>
