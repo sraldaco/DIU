@@ -1,7 +1,9 @@
 var correcto = new Audio();
 correcto.src="assets/audio/NFF-choice-good.wav";
+correcto.volume = 0.4;
 var incorrecto = new Audio();
 incorrecto.src="assets/audio/NFF-choice-bad.wav";
+incorrecto.volume = 0.4;
 var homeBoton = new Audio();
 homeBoton.src="assets/audio/home.mp3";
 var botones = new Audio();
