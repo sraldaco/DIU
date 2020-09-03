@@ -38,7 +38,7 @@
   "deprecated": false,
   "description": "A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise",
   "devDependencies": {
-    "bl": "~2.0.1",
+    "bl": "~4.0.3",
     "faucet": "0.0.1",
     "nyc": "~13.1.0",
     "safe-buffer": "~5.1.2",
